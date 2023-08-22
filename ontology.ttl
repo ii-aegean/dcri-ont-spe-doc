@@ -589,10 +589,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> rdf:type owl:Class .
 
 
-###  http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType
-<http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType> rdf:type owl:Class .
-
-
 ###  http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply
 <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply> rdf:type owl:Class .
 
@@ -1203,7 +1199,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_005 ,
                                                                                 :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
@@ -1227,8 +1222,8 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_005 ,
                                                                                 :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
+                                                                                :dmr_cleaning_superficial_deposit_011 ,
                                                                                 :dmr_cleaning_superficial_deposit_012 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
@@ -1353,6 +1348,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
                                                                                 :dmr_cleaning_superficial_deposit_012 ,
                                                                                 :dmr_cleaning_superficial_deposit_013 ,
+                                                                                :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_029 ,
                                                                                 :dmr_cleaning_superficial_deposit_032 ;
@@ -1395,7 +1391,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
                                                                                 :dmr_cleaning_superficial_deposit_010 ,
                                                                                 :dmr_cleaning_superficial_deposit_013 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
@@ -1427,7 +1422,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
                                                                                 :dmr_cleaning_superficial_deposit_012 ,
                                                                                 :dmr_cleaning_superficial_deposit_013 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
@@ -1490,7 +1484,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_005 ,
                                                                                 :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
@@ -1519,7 +1512,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
                                                                                 :dmr_cleaning_superficial_deposit_012 ,
                                                                                 :dmr_cleaning_superficial_deposit_013 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_029 ,
@@ -1546,7 +1538,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
                                                                                 :dmr_cleaning_superficial_deposit_014 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_026 ,
@@ -1580,7 +1571,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
                                                                                 :dmr_cleaning_superficial_deposit_014 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_028 ,
@@ -1613,7 +1603,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
                                                                                 :dmr_cleaning_superficial_deposit_014 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_026 ,
@@ -1644,7 +1633,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
                                                                                 :dmr_cleaning_superficial_deposit_012 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
@@ -1710,7 +1698,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
                                                                                 :dmr_cleaning_superficial_deposit_012 ,
                                                                                 :dmr_cleaning_superficial_deposit_013 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_029 ,
@@ -1728,12 +1715,12 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 ###  http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024
 :dmo_cleaning_superficial_deposit_024 rdf:type owl:NamedIndividual ,
                                                <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> ;
-                                      <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_010 ,
+                                      <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_003 ,
+                                                                                :dmr_cleaning_superficial_deposit_010 ,
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
                                                                                 :dmr_cleaning_superficial_deposit_012 ,
                                                                                 :dmr_cleaning_superficial_deposit_013 ,
                                                                                 :dmr_cleaning_superficial_deposit_015 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_029 ,
                                                                                 :dmr_cleaning_superficial_deposit_030 ,
@@ -1777,7 +1764,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
                                                                                 :dmr_cleaning_superficial_deposit_012 ,
                                                                                 :dmr_cleaning_superficial_deposit_013 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_021 ,
                                                                                 :dmr_cleaning_superficial_deposit_029 ,
@@ -1860,7 +1846,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
                                                                                 :dmr_cleaning_superficial_deposit_014 ,
-                                                                                :dmr_cleaning_superficial_deposit_017 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_021 ,
                                                                                 :dmr_cleaning_superficial_deposit_028 ,
@@ -2163,17 +2148,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                  "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος"@el ;
                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "requirement for conservation object about silver mirroring absence"@en ,
                                                                                       "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος"@el .
-
-
-###  http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017
-:dmr_cleaning_superficial_deposit_017 rdf:type owl:NamedIndividual ,
-                                               <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject> ;
-                                      <http://w3id.org/dcri-ont/requiresAbsenceOf> <http://w3id.org/dcri-ont/vocabulary/concept_00189> ;
-                                      <http://w3id.org/dcri-ont/isAboutCertainType> <http://w3id.org/dcri-ont/vocabulary/concept_00218> ;
-                                      rdfs:label "requirement for conservation object about emulsion absence"@en ,
-                                                 "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"@el ;
-                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "requirement for conservation object about emulsion absence"@en ,
-                                                                                      "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"@el .
 
 
 ###  http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018
@@ -4706,16 +4680,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 ###  http://w3id.org/dcri-ont/vocabulary/concept_00263
 <http://w3id.org/dcri-ont/vocabulary/concept_00263> rdf:type owl:NamedIndividual ,
                                                              <http://w3id.org/dcri-ont/ActorType> .
-
-
-###  http://w3id.org/dcri-ont/vocabulary/concept_00266
-<http://w3id.org/dcri-ont/vocabulary/concept_00266> rdf:type owl:NamedIndividual ,
-                                                             <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType> .
-
-
-###  http://w3id.org/dcri-ont/vocabulary/concept_00267
-<http://w3id.org/dcri-ont/vocabulary/concept_00267> rdf:type owl:NamedIndividual ,
-                                                             <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType> .
 
 
 #################################################################

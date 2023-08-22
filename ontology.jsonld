@@ -809,9 +809,6 @@
   "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
   "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
@@ -1755,8 +1752,6 @@
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"
@@ -1808,9 +1803,9 @@
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -2089,6 +2084,8 @@
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
   }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
+  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029"
@@ -2183,8 +2180,6 @@
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"
@@ -2251,8 +2246,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -2393,8 +2386,6 @@
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"
@@ -2456,8 +2447,6 @@
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"
@@ -2514,8 +2503,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -2588,8 +2575,6 @@
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"
@@ -2659,8 +2644,6 @@
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"
@@ -2725,8 +2708,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -2868,8 +2849,6 @@
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"
@@ -2909,6 +2888,8 @@
   "@id" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://w3id.org/dcri-ont/hasRequirement" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_003"
+  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"
@@ -2918,8 +2899,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_015"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -3016,8 +2995,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -3202,8 +3179,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -3918,32 +3893,6 @@
   }, {
     "@language" : "el",
     "@value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://w3id.org/dcri-ont/isAboutCertainType" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00218"
-  } ],
-  "http://w3id.org/dcri-ont/requiresAbsenceOf" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00189"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "requirement for conservation object about emulsion absence"
-  }, {
-    "@language" : "el",
-    "@value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "requirement for conservation object about emulsion absence"
-  }, {
-    "@language" : "el",
-    "@value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"
   } ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018",
@@ -9718,18 +9667,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://w3id.org/dcri-ont/ActorType"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00266",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00267",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType"
   } ]
 }, {
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity",

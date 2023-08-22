@@ -541,9 +541,6 @@ _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption
 <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType
-<http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
 # http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply
 <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
@@ -1248,7 +1245,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1271,8 +1267,8 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1391,6 +1387,7 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032> .
@@ -1431,7 +1428,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_012> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_012> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_012> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_012> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_012> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_012> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_012> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1462,7 +1458,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_013> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_013> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_013> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_013> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_013> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_013> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_013> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1522,7 +1517,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_016> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_016> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_016> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_016> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_016> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_016> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_016> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1550,7 +1544,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029> .
@@ -1576,7 +1569,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_018> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_018> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_018> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_018> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_018> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_018> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_018> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_026> .
@@ -1609,7 +1601,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_019> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_019> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_019> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_019> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_019> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_019> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_019> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_028> .
@@ -1641,7 +1632,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_020> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_020> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_020> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_020> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_020> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_020> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_020> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_026> .
@@ -1671,7 +1661,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1735,7 +1724,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_023> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_023> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_023> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_023> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_023> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_023> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_023> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029> .
@@ -1752,12 +1740,12 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_003> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_015> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_030> .
@@ -1799,7 +1787,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_028> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_028> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_028> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_028> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_028> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_028> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_021> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_028> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029> .
@@ -1878,7 +1865,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_033> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_033> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_033> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_033> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_033> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_033> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_021> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_033> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_028> .
@@ -2161,17 +2147,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_016> <http://www.w3.org/2000/01/rdf-schema#label> "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος"@el .
 <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_016> <http://www.w3.org/2004/02/skos/core#prefLabel> "requirement for conservation object about silver mirroring absence"@en .
 <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_016> <http://www.w3.org/2004/02/skos/core#prefLabel> "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος"@el .
-# 
-# http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017
-<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject> .
-<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/requiresAbsenceOf> <http://w3id.org/dcri-ont/vocabulary/concept_00189> .
-<http://w3id.org/dcri-ont/vocabulary/concept_00189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/isAboutCertainType> <http://w3id.org/dcri-ont/vocabulary/concept_00218> .
-<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/2000/01/rdf-schema#label> "requirement for conservation object about emulsion absence"@en .
-<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/2000/01/rdf-schema#label> "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"@el .
-<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/2004/02/skos/core#prefLabel> "requirement for conservation object about emulsion absence"@en .
-<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/2004/02/skos/core#prefLabel> "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"@el .
 # 
 # http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018
 <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -4104,6 +4079,7 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/vocabulary/concept_00188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E57_Material> .
 # 
 # http://w3id.org/dcri-ont/vocabulary/concept_00189
+<http://w3id.org/dcri-ont/vocabulary/concept_00189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/vocabulary/concept_00189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E57_Material> .
 # 
 # http://w3id.org/dcri-ont/vocabulary/concept_00190
@@ -4378,14 +4354,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # http://w3id.org/dcri-ont/vocabulary/concept_00263
 <http://w3id.org/dcri-ont/vocabulary/concept_00263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/vocabulary/concept_00263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ActorType> .
-# 
-# http://w3id.org/dcri-ont/vocabulary/concept_00266
-<http://w3id.org/dcri-ont/vocabulary/concept_00266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/dcri-ont/vocabulary/concept_00266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType> .
-# 
-# http://w3id.org/dcri-ont/vocabulary/concept_00267
-<http://w3id.org/dcri-ont/vocabulary/concept_00267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/dcri-ont/vocabulary/concept_00267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType> .
 # 
 # 
 # 

@@ -9,9 +9,7 @@
     "iri" : "http://w3id.org/dcri-ont/special/",
     "version" : "1.0.0",
     "author" : [ "Efthymia Moraitou" ],
-    "description" : {
-      "en" : "DCRIO Special Instances specialises Decision of Conservation and Restoration Intervention Ontology with classes, properties and individuals about specific categories of interventions options. At this version the model contains special classes, properties and individuals related to intervention options of i) cleaning superficial deposits and ii) consolidation of flaking of gouache artworks.\n\nThe ontology directly imports Decision of Conservation and Restoration Intervention Ontology and DCRIO Vocabulary.\n\nThe ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object properties from the CIDOC CRM extension about typed properties and negative typed properties."
-    },
+    "description" : { },
     "labels" : {
       "en" : "Decision of Conservation and Restoration Intervention Ontology Special Instances"
     },
@@ -227,19 +225,16 @@
     "id" : "129",
     "type" : "owl:Class"
   }, {
-    "id" : "130",
+    "id" : "131",
     "type" : "owl:Class"
   }, {
     "id" : "132",
     "type" : "owl:Class"
   }, {
-    "id" : "133",
+    "id" : "135",
     "type" : "owl:Class"
   }, {
     "id" : "136",
-    "type" : "owl:Class"
-  }, {
-    "id" : "137",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -250,22 +245,10 @@
       "IRI-based" : "S9_Property_Type"
     },
     "individuals" : [ {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00162",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00162"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00041",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00041"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00173",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00173"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00030",
@@ -274,10 +257,16 @@
         "IRI-based" : "concept_00030"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00163",
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00173",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
-        "IRI-based" : "concept_00163"
+        "IRI-based" : "concept_00173"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00162",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00162"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00042",
@@ -286,16 +275,22 @@
         "IRI-based" : "concept_00042"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00161",
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00163",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
-        "IRI-based" : "concept_00161"
+        "IRI-based" : "concept_00163"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00040",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00040"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00161",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00161"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00029",
@@ -310,12 +305,6 @@
         "IRI-based" : "concept_00228"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00046",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00046"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00200",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
@@ -326,6 +315,12 @@
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00002"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00046",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00046"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00197",
@@ -352,28 +347,28 @@
         "IRI-based" : "concept_00204"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00028",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00028"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00039",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00039"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00014",
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00028",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
-        "IRI-based" : "concept_00014"
+        "IRI-based" : "concept_00028"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00256",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00256"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00014",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00014"
       }
     } ],
     "attributes" : [ "external" ],
@@ -385,13 +380,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "Ποιοτική Τιμή Χρήσης Ενέργειας",
+        "language" : "en",
+        "value" : "Power Supply Qualitative Value",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Power Supply Qualitative Value",
+        "language" : "el",
+        "value" : "Ποιοτική Τιμή Χρήσης Ενέργειας",
         "type" : "label"
       } ]
     },
@@ -496,13 +491,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "υψηλός βαθμός πολυμερισμού",
+          "language" : "en",
+          "value" : "polymerism high degree",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "polymerism high degree",
+          "language" : "el",
+          "value" : "υψηλός βαθμός πολυμερισμού",
           "type" : "label"
         } ]
       },
@@ -517,13 +512,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "polymerism low degree",
+          "language" : "el",
+          "value" : "χαμηλός βαθμός πολυμερισμού",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "χαμηλός βαθμός πολυμερισμού",
+          "language" : "en",
+          "value" : "polymerism low degree",
           "type" : "label"
         } ]
       },
@@ -644,22 +639,16 @@
         "IRI-based" : "concept_00060"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00052",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00052"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00195",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00195"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00053",
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00052",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
-        "IRI-based" : "concept_00053"
+        "IRI-based" : "concept_00052"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00064",
@@ -668,16 +657,22 @@
         "IRI-based" : "concept_00064"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00050",
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00053",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
-        "IRI-based" : "concept_00050"
+        "IRI-based" : "concept_00053"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00061",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00061"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00050",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00050"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00194",
@@ -710,16 +705,16 @@
         "IRI-based" : "concept_00057"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00054",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00054"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00164",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00164"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00054",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00054"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00165",
@@ -740,6 +735,12 @@
         "IRI-based" : "concept_00049"
       }
     }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00047",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00047"
+      }
+    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00223",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
@@ -750,12 +751,6 @@
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00058"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00047",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00047"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00059",
@@ -791,13 +786,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for plan about local application presence",
+          "language" : "el",
+          "value" : "απαίτηση για το πλάνο παρουσίας τοπικής εφαρμογής",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το πλάνο παρουσίας τοπικής εφαρμογής",
+          "language" : "en",
+          "value" : "requirement for plan about local application presence",
           "type" : "label"
         } ],
         "requiresPresenceOf" : [ {
@@ -878,13 +873,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "application in contact",
+          "language" : "el",
+          "value" : "εφαρμογή εξ επαφής",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "εφαρμογή εξ επαφής",
+          "language" : "en",
+          "value" : "application in contact",
           "type" : "label"
         } ]
       },
@@ -899,13 +894,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "εφαρμογή από απόσταση",
+          "language" : "en",
+          "value" : "application from distance",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "application from distance",
+          "language" : "el",
+          "value" : "εφαρμογή από απόσταση",
           "type" : "label"
         } ]
       },
@@ -961,13 +956,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Air Velocity Qualitative Value",
+        "language" : "el",
+        "value" : "Ποιοτική Τιμή Έντασης Αέρα",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "Ποιοτική Τιμή Έντασης Αέρα",
+        "language" : "en",
+        "value" : "Air Velocity Qualitative Value",
         "type" : "label"
       } ]
     },
@@ -988,13 +983,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "χαμηλή ταχύτητα αέρα",
+          "language" : "en",
+          "value" : "low air velocity",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "low air velocity",
+          "language" : "el",
+          "value" : "χαμηλή ταχύτητα αέρα",
           "type" : "label"
         } ]
       },
@@ -1015,13 +1010,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "υψηλή ταχύτητα αέρα",
+          "language" : "en",
+          "value" : "high air velocity",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "high air velocity",
+          "language" : "el",
+          "value" : "υψηλή ταχύτητα αέρα",
           "type" : "label"
         } ]
       },
@@ -1069,13 +1064,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "πολύ υψηλή ροή αέρα",
+          "language" : "en",
+          "value" : "very high air velocity",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "very high air velocity",
+          "language" : "el",
+          "value" : "πολύ υψηλή ροή αέρα",
           "type" : "label"
         } ]
       },
@@ -1132,13 +1127,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "Ποιοτική Τιμή Ταχύτητας Εκτέλεσης",
+        "language" : "en",
+        "value" : "Performance Speed Qualitative Value",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Performance Speed Qualitative Value",
+        "language" : "el",
+        "value" : "Ποιοτική Τιμή Ταχύτητας Εκτέλεσης",
         "type" : "label"
       } ]
     },
@@ -1159,13 +1154,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "γρήγορη εκτέλεση",
+          "language" : "en",
+          "value" : "fast performance",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "fast performance",
+          "language" : "el",
+          "value" : "γρήγορη εκτέλεση",
           "type" : "label"
         } ]
       },
@@ -1333,13 +1328,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for physical feature about overall extent of friability absence",
+          "language" : "el",
+          "value" : "απαίτηση για το φυσικό χαρακτηριστικό απουσίας ολικής έκτασης ευθρυπτότητας",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το φυσικό χαρακτηριστικό απουσίας ολικής έκτασης ευθρυπτότητας",
+          "language" : "en",
+          "value" : "requirement for physical feature about overall extent of friability absence",
           "type" : "label"
         } ]
       },
@@ -1370,13 +1365,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το πλάνο σχετικά με την απουσία ολικής εφαρμογής",
+          "language" : "en",
+          "value" : "requirement for plan about overall application absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for plan about overall application absence",
+          "language" : "el",
+          "value" : "απαίτηση για το πλάνο σχετικά με την απουσία ολικής εφαρμογής",
           "type" : "label"
         } ]
       },
@@ -1422,13 +1417,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of consolidation of flaking painting with methyl cellulose in water at 0.025 and application with ultrasonic mister",
+          "language" : "el",
+          "value" : "επιλογή στερέωσης απολεπίσεων ζωγραφικής με μεθυλοκυτταρίνη σε νερό σε 0.025 και εφαρμογή με ψεκαστήρα με υπερήχους",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή στερέωσης απολεπίσεων ζωγραφικής με μεθυλοκυτταρίνη σε νερό σε 0.025 και εφαρμογή με ψεκαστήρα με υπερήχους",
+          "language" : "en",
+          "value" : "option of consolidation of flaking painting with methyl cellulose in water at 0.025 and application with ultrasonic mister",
           "type" : "label"
         } ]
       },
@@ -1485,13 +1480,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with dusting brush around friability areas",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πινέλο γύρω από περιοχές ευθρυπτότητας",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πινέλο γύρω από περιοχές ευθρυπτότητας",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with dusting brush around friability areas",
           "type" : "label"
         } ]
       },
@@ -1527,13 +1522,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή στερέωσης απολεπίσεων ζωγραφικής με Paraloid B72 σε ξυλένιο σε 0.2 και εφαρμογή με στρογγυλό πινέλο",
+          "language" : "en",
+          "value" : "option of consolidation of flaking painting with Paraloid B72 in xylene at 0.2 and application with round brush",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of consolidation of flaking painting with Paraloid B72 in xylene at 0.2 and application with round brush",
+          "language" : "el",
+          "value" : "επιλογή στερέωσης απολεπίσεων ζωγραφικής με Paraloid B72 σε ξυλένιο σε 0.2 και εφαρμογή με στρογγυλό πινέλο",
           "type" : "label"
         } ]
       },
@@ -1569,13 +1564,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of consolidation of flaking painting with gelatin in water at 0.2 and application with round brush",
+          "language" : "el",
+          "value" : "επιλογή στερέωσης απολεπίσεων ζωγραφικής με ζελατίνη σε νερό σε 0.2 και εφαρμογή με στρογγυλό πινέλο",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή στερέωσης απολεπίσεων ζωγραφικής με ζελατίνη σε νερό σε 0.2 και εφαρμογή με στρογγυλό πινέλο",
+          "language" : "en",
+          "value" : "option of consolidation of flaking painting with gelatin in water at 0.2 and application with round brush",
           "type" : "label"
         } ]
       },
@@ -1590,13 +1585,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of consolidation of flaking painting with Klucel G in propan-2-ol at 0.1 and application with round brush",
+          "language" : "el",
+          "value" : "επιλογή στερέωσης απολεπίσεων ζωγραφικής με Klucel G σε ισοπροπανόλη σε 0.1 με στρογγυλό πινέλο",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή στερέωσης απολεπίσεων ζωγραφικής με Klucel G σε ισοπροπανόλη σε 0.1 με στρογγυλό πινέλο",
+          "language" : "en",
+          "value" : "option of consolidation of flaking painting with Klucel G in propan-2-ol at 0.1 and application with round brush",
           "type" : "label"
         } ]
       },
@@ -1674,13 +1669,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φυσητήρα μπαταρίας",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with battery air blower",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with battery air blower",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φυσητήρα μπαταρίας",
           "type" : "label"
         } ]
       },
@@ -1688,27 +1683,6 @@
         "IRI-based" : "dmo_cleaning_superficial_deposit_003",
         "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φυσητήρα μπαταρίας",
         "en" : "option of mechanical cleaning of superficial deposits with battery air blower"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with battery vacuum cleaner and dusting brush",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με απορροφητική σκούπα μπαταρίας και πινέλο ξεσκονίσματος",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmo_cleaning_superficial_deposit_006",
-        "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με απορροφητική σκούπα μπαταρίας και πινέλο ξεσκονίσματος",
-        "en" : "option of mechanical cleaning of superficial deposits with battery vacuum cleaner and dusting brush"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_028",
@@ -1730,6 +1704,27 @@
         "IRI-based" : "dmo_cleaning_superficial_deposit_028",
         "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης γύρω από περιοχές απολέπισης",
         "en" : "option of mechanical cleaning of superficial deposits with smoke sponge around flaking areas"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with battery vacuum cleaner and dusting brush",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με απορροφητική σκούπα μπαταρίας και πινέλο ξεσκονίσματος",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmo_cleaning_superficial_deposit_006",
+        "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με απορροφητική σκούπα μπαταρίας και πινέλο ξεσκονίσματος",
+        "en" : "option of mechanical cleaning of superficial deposits with battery vacuum cleaner and dusting brush"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005",
@@ -1779,13 +1774,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με επαγγελματική απορροφητική σκούπα και πινέλο ξεσκονίσματος",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with professional vacuum cleaner and dusting brush",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with professional vacuum cleaner and dusting brush",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με επαγγελματική απορροφητική σκούπα και πινέλο ξεσκονίσματος",
           "type" : "label"
         } ]
       },
@@ -1793,6 +1788,27 @@
         "IRI-based" : "dmo_cleaning_superficial_deposit_021",
         "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με επαγγελματική απορροφητική σκούπα και πινέλο ξεσκονίσματος",
         "en" : "option of mechanical cleaning of superficial deposits with professional vacuum cleaner and dusting brush"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with air blow gun and dusting brush",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πιστόλι εκτόξευσης αέρα και πινέλο ξεσκονίσματος",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmo_cleaning_superficial_deposit_002",
+        "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πιστόλι εκτόξευσης αέρα και πινέλο ξεσκονίσματος",
+        "en" : "option of mechanical cleaning of superficial deposits with air blow gun and dusting brush"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024",
@@ -1816,39 +1832,18 @@
         "en" : "option of mechanical cleaning of superficial deposits with smoke sponge around friability areas"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πιστόλι εκτόξευσης αέρα και πινέλο ξεσκονίσματος",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with air blow gun and dusting brush",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmo_cleaning_superficial_deposit_002",
-        "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πιστόλι εκτόξευσης αέρα και πινέλο ξεσκονίσματος",
-        "en" : "option of mechanical cleaning of superficial deposits with air blow gun and dusting brush"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_023",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with smoke sponge",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with smoke sponge",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης",
           "type" : "label"
         } ]
       },
@@ -1884,13 +1879,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of physicochemical cleaning of superficial deposits with dust cloth and ethanol in water at 0.5",
+          "language" : "el",
+          "value" : "επιλογή φυσικοχημικού καθαρισμού επιφανειακών επικαθίσεων με ξεσκονόπανο και αιθανόλη σε νερό σε 0.5",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή φυσικοχημικού καθαρισμού επιφανειακών επικαθίσεων με ξεσκονόπανο και αιθανόλη σε νερό σε 0.5",
+          "language" : "en",
+          "value" : "option of physicochemical cleaning of superficial deposits with dust cloth and ethanol in water at 0.5",
           "type" : "label"
         } ]
       },
@@ -1905,13 +1900,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of physicochemical cleaning of superficial deposits with absorbent paper and ethanol in window cleaner at 0.5",
+          "language" : "el",
+          "value" : "επιλογή φυσικοχημικού καθαρισμού επιφανειακών επικαθίσεων με απορροφητικό χαρτί και αιθανόλη σε καθαριστικό τζαμιών σε 0.5",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή φυσικοχημικού καθαρισμού επιφανειακών επικαθίσεων με απορροφητικό χαρτί και αιθανόλη σε καθαριστικό τζαμιών σε 0.5",
+          "language" : "en",
+          "value" : "option of physicochemical cleaning of superficial deposits with absorbent paper and ethanol in window cleaner at 0.5",
           "type" : "label"
         } ]
       },
@@ -1926,13 +1921,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) around flaking areas",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με απορροφητική σκούπα μουσείου (φυσίματος/απορρόφησης) γύρω από περιοχές απολέπισης",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με απορροφητική σκούπα μουσείου (φυσίματος/απορρόφησης) γύρω από περιοχές απολέπισης",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) around flaking areas",
           "type" : "label"
         } ]
       },
@@ -1947,13 +1942,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με απορροφητική σκούπα μουσείου (φυσίματος/απορρόφησης)",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction)",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction)",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με απορροφητική σκούπα μουσείου (φυσίματος/απορρόφησης)",
           "type" : "label"
         } ]
       },
@@ -1989,13 +1984,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πανί ξεσκονίσματος swiffer",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with swiffer duster",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with swiffer duster",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πανί ξεσκονίσματος swiffer",
           "type" : "label"
         } ]
       },
@@ -2010,13 +2005,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με επαγγελματική απορροφητική σκούπα",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with professional vacuum cleaner",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with professional vacuum cleaner",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με επαγγελματική απορροφητική σκούπα",
           "type" : "label"
         } ]
       },
@@ -2052,13 +2047,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with feather duster",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φτερό ξεσκονίσματος",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φτερό ξεσκονίσματος",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with feather duster",
           "type" : "label"
         } ]
       },
@@ -2066,27 +2061,6 @@
         "IRI-based" : "dmo_cleaning_superficial_deposit_011",
         "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φτερό ξεσκονίσματος",
         "en" : "option of mechanical cleaning of superficial deposits with feather duster"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πινέλο ξεσκονίσματος",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with dusting brush",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmo_cleaning_superficial_deposit_010",
-        "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πινέλο ξεσκονίσματος",
-        "en" : "option of mechanical cleaning of superficial deposits with dusting brush"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_032",
@@ -2110,18 +2084,39 @@
         "en" : "option of mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) and dusting brush around flaking areas"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_013",
+      "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φυσητήρα φύλλων και πινέλο ξεσκονίσματος",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πινέλο ξεσκονίσματος",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
           "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with dusting brush",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmo_cleaning_superficial_deposit_010",
+        "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πινέλο ξεσκονίσματος",
+        "en" : "option of mechanical cleaning of superficial deposits with dusting brush"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_013",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
           "value" : "option of mechanical cleaning of superficial deposits with leaf blower and dusting brush",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φυσητήρα φύλλων και πινέλο ξεσκονίσματος",
           "type" : "label"
         } ]
       },
@@ -2129,27 +2124,6 @@
         "IRI-based" : "dmo_cleaning_superficial_deposit_013",
         "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φυσητήρα φύλλων και πινέλο ξεσκονίσματος",
         "en" : "option of mechanical cleaning of superficial deposits with leaf blower and dusting brush"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_012",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "option of mechanical cleaning of superficial deposits with leaf blower",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φυσητήρα φύλλων",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmo_cleaning_superficial_deposit_012",
-        "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φυσητήρα φύλλων",
-        "en" : "option of mechanical cleaning of superficial deposits with leaf blower"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_034",
@@ -2171,6 +2145,27 @@
         "IRI-based" : "dmo_cleaning_superficial_deposit_034",
         "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων",
         "en" : "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung friability areas"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_012",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "option of mechanical cleaning of superficial deposits with leaf blower",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φυσητήρα φύλλων",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmo_cleaning_superficial_deposit_012",
+        "el" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με φυσητήρα φύλλων",
+        "en" : "option of mechanical cleaning of superficial deposits with leaf blower"
       }
     } ],
     "attributes" : [ "external" ],
@@ -2254,13 +2249,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for adjacent layer about adhesion problem absence",
+          "language" : "el",
+          "value" : "απαίτηση για παρακείμενο στρώμα απουσίας προβλήματος πρόσφυσης",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για παρακείμενο στρώμα απουσίας προβλήματος πρόσφυσης",
+          "language" : "en",
+          "value" : "requirement for adjacent layer about adhesion problem absence",
           "type" : "label"
         } ]
       },
@@ -2281,13 +2276,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for adjacent layer about paper presence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης παρουσίας χαρτιού",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης παρουσίας χαρτιού",
+          "language" : "en",
+          "value" : "requirement for adjacent layer about paper presence",
           "type" : "label"
         } ],
         "requiresPresenceOf" : [ {
@@ -2334,13 +2329,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about matte absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ματ",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ματ",
+          "language" : "en",
+          "value" : "requirement for conservation object about matte absence",
           "type" : "label"
         } ]
       },
@@ -2361,13 +2356,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about gouache presence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης παρουσίας γκουάς",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης παρουσίας γκουάς",
+          "language" : "en",
+          "value" : "requirement for conservation object about gouache presence",
           "type" : "label"
         } ],
         "requiresPresenceOf" : [ {
@@ -2497,39 +2492,6 @@
         "en" : "requirement for conservation object about relief absence"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_023",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "isAboutCertainType" : [ {
-          "identifier" : "isAboutCertainType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00210",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about very big size",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης παρουσίας πολύ μεγάλου μεγέθους",
-          "type" : "label"
-        } ],
-        "requiresPresenceOf" : [ {
-          "identifier" : "requiresPresenceOf",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/special/qv_00061",
-          "type" : "iri"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_023",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης παρουσίας πολύ μεγάλου μεγέθους",
-        "en" : "requirement for conservation object about very big size"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_045",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
@@ -2557,6 +2519,39 @@
         "en" : "requirement for conservation object about gold paint coating absence"
       }
     }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_023",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "isAboutCertainType" : [ {
+          "identifier" : "isAboutCertainType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00210",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης παρουσίας πολύ μεγάλου μεγέθους",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "requirement for conservation object about very big size",
+          "type" : "label"
+        } ],
+        "requiresPresenceOf" : [ {
+          "identifier" : "requiresPresenceOf",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/special/qv_00061",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmr_cleaning_superficial_deposit_023",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης παρουσίας πολύ μεγάλου μεγέθους",
+        "en" : "requirement for conservation object about very big size"
+      }
+    }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_001",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
@@ -2568,13 +2563,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας μέσων ζωγραφικής",
+          "language" : "en",
+          "value" : "requirement for conservation object about painting media absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about painting media absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας μέσων ζωγραφικής",
           "type" : "label"
         } ]
       },
@@ -2582,33 +2577,6 @@
         "IRI-based" : "dmr_cleaning_superficial_deposit_001",
         "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας μέσων ζωγραφικής",
         "en" : "requirement for conservation object about painting media absence"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_028",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "isAboutCertainType" : [ {
-          "identifier" : "isAboutCertainType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00246",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας λίθου",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about stone absence",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_028",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας λίθου",
-        "en" : "requirement for conservation object about stone absence"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_006",
@@ -2622,13 +2590,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about plastic absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας πλαστικού",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας πλαστικού",
+          "language" : "en",
+          "value" : "requirement for conservation object about plastic absence",
           "type" : "label"
         } ]
       },
@@ -2638,31 +2606,31 @@
         "en" : "requirement for conservation object about plastic absence"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_007",
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_028",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
         "isAboutCertainType" : [ {
           "identifier" : "isAboutCertainType",
           "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00214",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00246",
           "type" : "iri"
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ξύλου",
+          "language" : "en",
+          "value" : "requirement for conservation object about stone absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about wood absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας λίθου",
           "type" : "label"
         } ]
       },
       "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_007",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ξύλου",
-        "en" : "requirement for conservation object about wood absence"
+        "IRI-based" : "dmr_cleaning_superficial_deposit_028",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας λίθου",
+        "en" : "requirement for conservation object about stone absence"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029",
@@ -2690,6 +2658,33 @@
         "IRI-based" : "dmr_cleaning_superficial_deposit_029",
         "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας κολλώδους ιδιότητας",
         "en" : "requirement for conservation object about stickiness absence"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_007",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "isAboutCertainType" : [ {
+          "identifier" : "isAboutCertainType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00214",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "requirement for conservation object about wood absence",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ξύλου",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmr_cleaning_superficial_deposit_007",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ξύλου",
+        "en" : "requirement for conservation object about wood absence"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008",
@@ -2730,13 +2725,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας αστάθειας",
+          "language" : "en",
+          "value" : "requirement for conservation object about instability absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about instability absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας αστάθειας",
           "type" : "label"
         } ]
       },
@@ -2744,33 +2739,6 @@
         "IRI-based" : "dmr_cleaning_superficial_deposit_009",
         "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας αστάθειας",
         "en" : "requirement for conservation object about instability absence"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "isAboutCertainType" : [ {
-          "identifier" : "isAboutCertainType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00208",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ευθρυπτότητας",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about friability absence",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_002",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ευθρυπτότητας",
-        "en" : "requirement for conservation object about friability absence"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046",
@@ -2800,6 +2768,33 @@
         "en" : "requirement for conservation object about paper absence"
       }
     }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "isAboutCertainType" : [ {
+          "identifier" : "isAboutCertainType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00208",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "requirement for conservation object about friability absence",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ευθρυπτότητας",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmr_cleaning_superficial_deposit_002",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ευθρυπτότητας",
+        "en" : "requirement for conservation object about friability absence"
+      }
+    }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
@@ -2811,13 +2806,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about powdering absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας κονιορτοποίησης",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας κονιορτοποίησης",
+          "language" : "en",
+          "value" : "requirement for conservation object about powdering absence",
           "type" : "label"
         } ]
       },
@@ -2825,6 +2820,72 @@
         "IRI-based" : "dmr_cleaning_superficial_deposit_024",
         "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας κονιορτοποίησης",
         "en" : "requirement for conservation object about powdering absence"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_047",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "requiresDimensionPropertyType" : [ {
+          "identifier" : "requiresDimensionPropertyType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00163",
+          "type" : "iri"
+        } ],
+        "isAboutCertainType" : [ {
+          "identifier" : "isAboutCertainType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00246",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "requirement for conservation object about minimum height",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης ελάχιστου ύψους",
+          "type" : "label"
+        } ],
+        "requiresMinimumDimensionValue" : [ {
+          "identifier" : "requiresMinimumDimensionValue",
+          "language" : "undefined",
+          "value" : "300",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmr_cleaning_superficial_deposit_047",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης ελάχιστου ύψους",
+        "en" : "requirement for conservation object about minimum height"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_003",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "isAboutCertainType" : [ {
+          "identifier" : "isAboutCertainType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00208",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας τραχύτητας",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "requirement for conservation object about roughness absence",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmr_cleaning_superficial_deposit_003",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας τραχύτητας",
+        "en" : "requirement for conservation object about roughness absence"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_025",
@@ -2854,97 +2915,31 @@
         "en" : "requirement for conservation object about glass absence"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_003",
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_004",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
         "isAboutCertainType" : [ {
           "identifier" : "isAboutCertainType",
           "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00208",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00214",
           "type" : "iri"
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "requirement for conservation object about roughness absence",
+          "language" : "en",
+          "value" : "requirement for conservation object about textile absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας τραχύτητας",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας υφάσματος",
           "type" : "label"
         } ]
       },
       "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_003",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας τραχύτητας",
-        "en" : "requirement for conservation object about roughness absence"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_047",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "requiresDimensionPropertyType" : [ {
-          "identifier" : "requiresDimensionPropertyType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00163",
-          "type" : "iri"
-        } ],
-        "isAboutCertainType" : [ {
-          "identifier" : "isAboutCertainType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00246",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης ελάχιστου ύψους",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about minimum height",
-          "type" : "label"
-        } ],
-        "requiresMinimumDimensionValue" : [ {
-          "identifier" : "requiresMinimumDimensionValue",
-          "language" : "undefined",
-          "value" : "300",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_047",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης ελάχιστου ύψους",
-        "en" : "requirement for conservation object about minimum height"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_026",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "isAboutCertainType" : [ {
-          "identifier" : "isAboutCertainType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00246",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας κεραμικού",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about ceramic absence",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_026",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας κεραμικού",
-        "en" : "requirement for conservation object about ceramic absence"
+        "IRI-based" : "dmr_cleaning_superficial_deposit_004",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας υφάσματος",
+        "en" : "requirement for conservation object about textile absence"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_048",
@@ -2974,58 +2969,31 @@
         "en" : "requirement for conservation object about metal absence"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_004",
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_026",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
         "isAboutCertainType" : [ {
           "identifier" : "isAboutCertainType",
           "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00214",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00246",
           "type" : "iri"
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας υφάσματος",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας κεραμικού",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
           "language" : "en",
-          "value" : "requirement for conservation object about textile absence",
+          "value" : "requirement for conservation object about ceramic absence",
           "type" : "label"
         } ]
       },
       "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_004",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας υφάσματος",
-        "en" : "requirement for conservation object about textile absence"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "isAboutCertainType" : [ {
-          "identifier" : "isAboutCertainType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00214",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about paper absence",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας χαρτιού",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_005",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας χαρτιού",
-        "en" : "requirement for conservation object about paper absence"
+        "IRI-based" : "dmr_cleaning_superficial_deposit_026",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας κεραμικού",
+        "en" : "requirement for conservation object about ceramic absence"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_027",
@@ -3055,6 +3023,33 @@
         "en" : "requirement for conservation object about metal absence"
       }
     }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "isAboutCertainType" : [ {
+          "identifier" : "isAboutCertainType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00214",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "requirement for conservation object about paper absence",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας χαρτιού",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmr_cleaning_superficial_deposit_005",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας χαρτιού",
+        "en" : "requirement for conservation object about paper absence"
+      }
+    }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_049",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
@@ -3066,13 +3061,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about textile absence",
+          "language" : "el",
+          "value" : "απαίτηση για αντικείμενο συντήρησης απουσίας υφάσματος",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για αντικείμενο συντήρησης απουσίας υφάσματος",
+          "language" : "en",
+          "value" : "requirement for conservation object about textile absence",
           "type" : "label"
         } ]
       },
@@ -3093,13 +3088,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about flaking absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας απολέπισης",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας απολέπισης",
+          "language" : "en",
+          "value" : "requirement for conservation object about flaking absence",
           "type" : "label"
         } ]
       },
@@ -3163,33 +3158,6 @@
         "en" : "requirement for conservation object about soft pencil absence"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_034",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "isAboutCertainType" : [ {
-          "identifier" : "isAboutCertainType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00246",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about polyvinyl chloride absence",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας πολυβυνιλοχλωριδίου",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_034",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας πολυβυνιλοχλωριδίου",
-        "en" : "requirement for conservation object about polyvinyl chloride absence"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
@@ -3215,6 +3183,33 @@
         "IRI-based" : "dmr_cleaning_superficial_deposit_012",
         "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας παστέλ",
         "en" : "requirement for conservation object about pastel absence"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_034",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "isAboutCertainType" : [ {
+          "identifier" : "isAboutCertainType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00246",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας πολυβυνιλοχλωριδίου",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "requirement for conservation object about polyvinyl chloride absence",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmr_cleaning_superficial_deposit_034",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας πολυβυνιλοχλωριδίου",
+        "en" : "requirement for conservation object about polyvinyl chloride absence"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_050",
@@ -3255,13 +3250,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about wood absence",
+          "language" : "el",
+          "value" : "απαίτηση για αντικείμενο συντήρησης απουσίας ξύλου",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για αντικείμενο συντήρησης απουσίας ξύλου",
+          "language" : "en",
+          "value" : "requirement for conservation object about wood absence",
           "type" : "label"
         } ]
       },
@@ -3310,33 +3305,6 @@
         "en" : "requirement for conservation object about minimum width"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "isAboutCertainType" : [ {
-          "identifier" : "isAboutCertainType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00218",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about emulsion absence",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_017",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος",
-        "en" : "requirement for conservation object about emulsion absence"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
@@ -3348,13 +3316,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ανυψωμένων άκρων ρωγμών",
+          "language" : "en",
+          "value" : "requirement for conservation object about uplifted crack edge absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about uplifted crack edge absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας ανυψωμένων άκρων ρωγμών",
           "type" : "label"
         } ]
       },
@@ -3375,13 +3343,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας χαλαρότητας",
+          "language" : "en",
+          "value" : "requirement for conservation object about looseness absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about looseness absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας χαλαρότητας",
           "type" : "label"
         } ]
       },
@@ -3402,13 +3370,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας πολυαιθυλενίου",
+          "language" : "en",
+          "value" : "requirement for conservation object about polyethelene absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about polyethelene absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας πολυαιθυλενίου",
           "type" : "label"
         } ]
       },
@@ -3429,13 +3397,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας κάρβουνου",
+          "language" : "en",
+          "value" : "requirement for conservation object about charcoal absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about charcoal absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας κάρβουνου",
           "type" : "label"
         } ]
       },
@@ -3505,33 +3473,6 @@
         "en" : "requirement for conservation object about friability presence"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_038",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "isAboutCertainType" : [ {
-          "identifier" : "isAboutCertainType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00212",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας επικαλυπτικού υλικού κεριού",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about wax coating absence",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dmr_cleaning_superficial_deposit_038",
-        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας επικαλυπτικού υλικού κεριού",
-        "en" : "requirement for conservation object about wax coating absence"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_016",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
@@ -3543,13 +3484,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος",
+          "language" : "en",
+          "value" : "requirement for conservation object about silver mirroring absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for conservation object about silver mirroring absence",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος",
           "type" : "label"
         } ]
       },
@@ -3557,6 +3498,33 @@
         "IRI-based" : "dmr_cleaning_superficial_deposit_016",
         "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος",
         "en" : "requirement for conservation object about silver mirroring absence"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_038",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "isAboutCertainType" : [ {
+          "identifier" : "isAboutCertainType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00212",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "requirement for conservation object about wax coating absence",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας επικαλυπτικού υλικού κεριού",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dmr_cleaning_superficial_deposit_038",
+        "el" : "απαίτηση για το αντικείμενο συντήρησης απουσίας επικαλυπτικού υλικού κεριού",
+        "en" : "requirement for conservation object about wax coating absence"
       }
     } ],
     "attributes" : [ "external" ],
@@ -3771,16 +3739,16 @@
         "IRI-based" : "concept_00242"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00168",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00168"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00201",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00201"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00168",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00168"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00169",
@@ -3813,28 +3781,28 @@
         "IRI-based" : "concept_00219"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00177",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00177"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00254",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00254"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00255",
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00177",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
-        "IRI-based" : "concept_00255"
+        "IRI-based" : "concept_00177"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00178",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00178"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00255",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00255"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00175",
@@ -3861,16 +3829,16 @@
         "IRI-based" : "concept_00257"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00070",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00070"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00191",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00191"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00070",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00070"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00192",
@@ -3927,16 +3895,22 @@
         "IRI-based" : "concept_00188"
       }
     }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00221",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00221"
+      }
+    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00067",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00067"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00221",
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00068",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
-        "IRI-based" : "concept_00221"
+        "IRI-based" : "concept_00068"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00189",
@@ -3949,12 +3923,6 @@
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00222"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00068",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00068"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00065",
@@ -4017,10 +3985,10 @@
         "IRI-based" : "concept_00230"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00154",
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00231",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
-        "IRI-based" : "concept_00154"
+        "IRI-based" : "concept_00231"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00198",
@@ -4029,10 +3997,10 @@
         "IRI-based" : "concept_00198"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00231",
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00154",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
-        "IRI-based" : "concept_00231"
+        "IRI-based" : "concept_00154"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00159",
@@ -4134,12 +4102,6 @@
         "IRI-based" : "concept_00150"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00149",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00149"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00226",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
@@ -4150,6 +4112,12 @@
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00259"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00149",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00149"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00157",
@@ -4236,13 +4204,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Adhesion Strength Qualitative Value",
+        "language" : "el",
+        "value" : "Ποιοτική Τιμή Ισχύος Συγκόλλησης",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "Ποιοτική Τιμή Ισχύος Συγκόλλησης",
+        "language" : "en",
+        "value" : "Adhesion Strength Qualitative Value",
         "type" : "label"
       } ]
     },
@@ -4264,12 +4232,12 @@
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "el",
-          "value" : "υψηλή ισχύς συγκόλλησης",
+          "value" : "high adhesion strength",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
           "language" : "el",
-          "value" : "high adhesion strength",
+          "value" : "υψηλή ισχύς συγκόλλησης",
           "type" : "label"
         } ]
       },
@@ -4344,13 +4312,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Application Extent Qualitative Value",
+        "language" : "el",
+        "value" : "Ποιοτική Τιμή Έκτασης Εφαρμογής",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "Ποιοτική Τιμή Έκτασης Εφαρμογής",
+        "language" : "en",
+        "value" : "Application Extent Qualitative Value",
         "type" : "label"
       } ]
     },
@@ -4365,13 +4333,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "ολική εφαρμογή",
+          "language" : "en",
+          "value" : "overall application",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "overall application",
+          "language" : "el",
+          "value" : "ολική εφαρμογή",
           "type" : "label"
         } ]
       },
@@ -4413,13 +4381,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Portability Qualitative Value",
+        "language" : "el",
+        "value" : "Ποιοτική Τιμή Φορητότητας",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "Ποιοτική Τιμή Φορητότητας",
+        "language" : "en",
+        "value" : "Portability Qualitative Value",
         "type" : "label"
       } ]
     },
@@ -4494,13 +4462,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για τον εξοπλισμό του πλάνου απουσίας χρήσης ηλεκτρικής ενέργειας",
+          "language" : "en",
+          "value" : "requirement for supply about electric current absence",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for supply about electric current absence",
+          "language" : "el",
+          "value" : "απαίτηση για τον εξοπλισμό του πλάνου απουσίας χρήσης ηλεκτρικής ενέργειας",
           "type" : "label"
         } ]
       },
@@ -4525,13 +4493,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "issue of choosing cleaning superficial deposit plan",
+          "language" : "el",
+          "value" : "πρόβλημα επιλογής πλάνου καθαρισμού επιφανειακών επικαθίσεων",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "πρόβλημα επιλογής πλάνου καθαρισμού επιφανειακών επικαθίσεων",
+          "language" : "en",
+          "value" : "issue of choosing cleaning superficial deposit plan",
           "type" : "label"
         } ]
       },
@@ -4546,13 +4514,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "πρόβλημα επιλογής πλάνου για την στερέωση απολέπισης ζωγραφικής",
+          "language" : "en",
+          "value" : "issue of choosing consolidation of flaking painting plan",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "issue of choosing consolidation of flaking painting plan",
+          "language" : "el",
+          "value" : "πρόβλημα επιλογής πλάνου για την στερέωση απολέπισης ζωγραφικής",
           "type" : "label"
         } ]
       },
@@ -4583,13 +4551,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "criterion for supply about optical stability",
+          "language" : "el",
+          "value" : "κριτήριο σχετικά με την οπτική σταθερότητα του υλικού",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "κριτήριο σχετικά με την οπτική σταθερότητα του υλικού",
+          "language" : "en",
+          "value" : "criterion for supply about optical stability",
           "type" : "label"
         } ]
       },
@@ -4635,13 +4603,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "Ποιοτική Τιμή Χώρου Εκτέλεσης",
+        "language" : "en",
+        "value" : "Performance Space Qualitative Value",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Performance Space Qualitative Value",
+        "language" : "el",
+        "value" : "Ποιοτική Τιμή Χώρου Εκτέλεσης",
         "type" : "label"
       } ]
     },
@@ -4661,13 +4629,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Size Qualitative Value",
+        "language" : "el",
+        "value" : "Ποιοτική Τιμή Μεγέθους",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "Ποιοτική Τιμή Μεγέθους",
+        "language" : "en",
+        "value" : "Size Qualitative Value",
         "type" : "label"
       } ]
     },
@@ -4703,13 +4671,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "very small size",
+          "language" : "el",
+          "value" : "πολύ μικρό μέγεθος",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "πολύ μικρό μέγεθος",
+          "language" : "en",
+          "value" : "very small size",
           "type" : "label"
         } ]
       },
@@ -4724,13 +4692,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "very big size",
+          "language" : "el",
+          "value" : "πολύ μεγάλο μέγεθος",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "πολύ μεγάλο μέγεθος",
+          "language" : "en",
+          "value" : "very big size",
           "type" : "label"
         } ]
       },
@@ -4745,13 +4713,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "big size",
+          "language" : "el",
+          "value" : "μεγάλο μέγεθος",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μεγάλο μέγεθος",
+          "language" : "en",
+          "value" : "big size",
           "type" : "label"
         } ]
       },
@@ -4793,13 +4761,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Solubility in Solvent Qualitative Value",
+        "language" : "el",
+        "value" : "Ποιοτική Τιμή Διαλυτότητας σε Διαλύτη",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "Ποιοτική Τιμή Διαλυτότητας σε Διαλύτη",
+        "language" : "en",
+        "value" : "Solubility in Solvent Qualitative Value",
         "type" : "label"
       } ]
     },
@@ -4814,13 +4782,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "διαλυτό σε νερό",
+          "language" : "en",
+          "value" : "water soluble",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "water soluble",
+          "language" : "el",
+          "value" : "διαλυτό σε νερό",
           "type" : "label"
         } ]
       },
@@ -4835,13 +4803,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "aceton soluble",
+          "language" : "el",
+          "value" : "διαλυτό σε ακετόνη",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "διαλυτό σε ακετόνη",
+          "language" : "en",
+          "value" : "aceton soluble",
           "type" : "label"
         } ]
       },
@@ -4880,13 +4848,13 @@
         } ],
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απαίτηση για το υλικό σχετικά με την ελάχιστη θερμοκρασία",
+          "language" : "en",
+          "value" : "requirement for supply about minimum temperature",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "requirement for supply about minimum temperature",
+          "language" : "el",
+          "value" : "απαίτηση για το υλικό σχετικά με την ελάχιστη θερμοκρασία",
           "type" : "label"
         } ],
         "requiresMinimumDimensionValue" : [ {
@@ -4932,13 +4900,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "τοπική έκταση επιφάνειας",
+          "language" : "en",
+          "value" : "local surface extent",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "local surface extent",
+          "language" : "el",
+          "value" : "τοπική έκταση επιφάνειας",
           "type" : "label"
         } ]
       },
@@ -4953,13 +4921,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "ολική έκταση επιφάνειας",
+          "language" : "en",
+          "value" : "overall surface extent",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "overall surface extent",
+          "language" : "el",
+          "value" : "ολική έκταση επιφάνειας",
           "type" : "label"
         } ]
       },
@@ -5038,16 +5006,16 @@
         "IRI-based" : "concept_00196"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00171",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00171"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00193",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00193"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00171",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00171"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00227",
@@ -5086,16 +5054,16 @@
         "IRI-based" : "concept_00088"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00203",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00203"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00247",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00247"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00203",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00203"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00248",
@@ -5116,16 +5084,16 @@
         "IRI-based" : "concept_00081"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00181",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00181"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00082",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00082"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00181",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00181"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00080",
@@ -5134,16 +5102,16 @@
         "IRI-based" : "concept_00080"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00184",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00184"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00085",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00085"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00184",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00184"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00240",
@@ -5158,16 +5126,16 @@
         "IRI-based" : "concept_00086"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00083",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00083"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00182",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00182"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00083",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00083"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00084",
@@ -5200,16 +5168,16 @@
         "IRI-based" : "concept_00078"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00233",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00233"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00079",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00079"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00233",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00233"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00076",
@@ -5263,13 +5231,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with smoke sponge around friability areas",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης γύρω από περιοχές ευθρυπτότητας",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης γύρω από περιοχές ευθρυπτότητας",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with smoke sponge around friability areas",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5290,13 +5258,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) around flaking",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητική σκούπα μουσείου (φυσίματος/απορρόφησης) γύρω από περιοχές απολέπισης",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητική σκούπα μουσείου (φυσίματος/απορρόφησης) γύρω από περιοχές απολέπισης",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) around flaking",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5317,13 +5285,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) and dusting brush around flaking",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητική σκούπα μουσείου (φυσίματος/απορρόφησης) και πινέλο ξεσκονίσματος γύρω από περιοχές απολέπισης",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητική σκούπα μουσείου (φυσίματος/απορρόφησης) και πινέλο ξεσκονίσματος γύρω από περιοχές απολέπισης",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) and dusting brush around flaking",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5366,6 +5334,33 @@
         "en" : "mechanical cleaning of superficial deposits with air blow gun and dusting brush"
       }
     }, {
+      "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_011",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with leaf blower",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με φυσητήρα φύλλων",
+          "type" : "label"
+        } ],
+        "hasPlanType" : [ {
+          "identifier" : "hasPlanType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00021",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ip_cleaning_superficial_deposit_011",
+        "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με φυσητήρα φύλλων",
+        "en" : "mechanical cleaning of superficial deposits with leaf blower"
+      }
+    }, {
       "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_033",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
@@ -5393,72 +5388,18 @@
         "en" : "physicochemical cleaning of superficial deposits with dust cloth and ethanol in water at 0.5 around flaking areas"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_011",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με φυσητήρα φύλλων",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with leaf blower",
-          "type" : "label"
-        } ],
-        "hasPlanType" : [ {
-          "identifier" : "hasPlanType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00021",
-          "type" : "iri"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "ip_cleaning_superficial_deposit_011",
-        "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με φυσητήρα φύλλων",
-        "en" : "mechanical cleaning of superficial deposits with leaf blower"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas",
-          "type" : "label"
-        } ],
-        "hasPlanType" : [ {
-          "identifier" : "hasPlanType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00021",
-          "type" : "iri"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "ip_cleaning_superficial_deposit_034",
-        "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων",
-        "en" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_012",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with leaf blower and dusting brush",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με φυσητήρα φύλλων και πινέλο ξεσκονίσματος",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με φυσητήρα φύλλων και πινέλο ξεσκονίσματος",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with leaf blower and dusting brush",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5474,18 +5415,45 @@
         "en" : "mechanical cleaning of superficial deposits with leaf blower and dusting brush"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_013",
+      "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034",
       "baseIri" : "http://w3id.org/dcri-ont/special",
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with feather duster",
+          "value" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
           "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων",
+          "type" : "label"
+        } ],
+        "hasPlanType" : [ {
+          "identifier" : "hasPlanType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00021",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ip_cleaning_superficial_deposit_034",
+        "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων",
+        "en" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_013",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "el",
           "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με φτερό ξεσκονίσματος",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with feather duster",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5506,13 +5474,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "φυσικοχημικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητικό χαρτί και αιθανόλη σε καθαριστικό τζαμιών σε 0.5",
+          "language" : "en",
+          "value" : "physicochemical cleaning of superficial deposits with absorbent paper and ethanol in window cleaner at 0.5",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "physicochemical cleaning of superficial deposits with absorbent paper and ethanol in window cleaner at 0.5",
+          "language" : "el",
+          "value" : "φυσικοχημικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητικό χαρτί και αιθανόλη σε καθαριστικό τζαμιών σε 0.5",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5560,13 +5528,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με επαγγελματική σκούπα απορρόφησης",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with professional vacuum cleaner",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with professional vacuum cleaner",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με επαγγελματική σκούπα απορρόφησης",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5641,13 +5609,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "physicochemical cleaning of superficial deposits with dust cloth and ethanol in window cleaner at 0.5",
+          "language" : "el",
+          "value" : "φυσικοχημικός καθαρισμός επιφανειακών επικαθίσεων με ξεσκονόπανο και αιθανόλη σε καθαριστικό τζαμιών σε 0.5",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "φυσικοχημικός καθαρισμός επιφανειακών επικαθίσεων με ξεσκονόπανο και αιθανόλη σε καθαριστικό τζαμιών σε 0.5",
+          "language" : "en",
+          "value" : "physicochemical cleaning of superficial deposits with dust cloth and ethanol in window cleaner at 0.5",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5695,13 +5663,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητική σκούπα μουσείου (φυσίματος/απορρόφησης) και πινέλο ξεσκονίσματος",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) and dusting brush",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) and dusting brush",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητική σκούπα μουσείου (φυσίματος/απορρόφησης) και πινέλο ξεσκονίσματος",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5749,13 +5717,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with smoke sponge",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with smoke sponge",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5803,13 +5771,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5823,33 +5791,6 @@
         "IRI-based" : "ip_cleaning_superficial_deposit_002",
         "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος",
         "en" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_025",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with dusting brush around friability areas",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πινέλο γύρω από περιοχές ευθρυπτότητας",
-          "type" : "label"
-        } ],
-        "hasPlanType" : [ {
-          "identifier" : "hasPlanType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00021",
-          "type" : "iri"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "ip_cleaning_superficial_deposit_025",
-        "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πινέλο γύρω από περιοχές ευθρυπτότητας",
-        "en" : "mechanical cleaning of superficial deposits with dusting brush around friability areas"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_003",
@@ -5877,6 +5818,33 @@
         "IRI-based" : "ip_cleaning_superficial_deposit_003",
         "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με φυσητήρα μπαταρίας",
         "en" : "mechanical cleaning of superficial deposits with battery air blower"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_025",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πινέλο γύρω από περιοχές ευθρυπτότητας",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with dusting brush around friability areas",
+          "type" : "label"
+        } ],
+        "hasPlanType" : [ {
+          "identifier" : "hasPlanType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00021",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ip_cleaning_superficial_deposit_025",
+        "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πινέλο γύρω από περιοχές ευθρυπτότητας",
+        "en" : "mechanical cleaning of superficial deposits with dusting brush around friability areas"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_026",
@@ -5911,13 +5879,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with battery air blower and dusting brush",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με φυσητήρα μπαταρίας και πινέλο ξεσκονίσματος",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με φυσητήρα μπαταρίας και πινέλο ξεσκονίσματος",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with battery air blower and dusting brush",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5938,13 +5906,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητική σκούπα μπαταρίας",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with battery vacuum cleaner",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with battery vacuum cleaner",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητική σκούπα μπαταρίας",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -5958,33 +5926,6 @@
         "IRI-based" : "ip_cleaning_superficial_deposit_005",
         "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητική σκούπα μπαταρίας",
         "en" : "mechanical cleaning of superficial deposits with battery vacuum cleaner"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_028",
-      "baseIri" : "http://w3id.org/dcri-ont/special",
-      "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mechanical cleaning of superficial deposits with smoke sponge around flaking areas",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης γύρω από περιοχές απολέπισης",
-          "type" : "label"
-        } ],
-        "hasPlanType" : [ {
-          "identifier" : "hasPlanType",
-          "language" : "undefined",
-          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00021",
-          "type" : "iri"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "ip_cleaning_superficial_deposit_028",
-        "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης γύρω από περιοχές απολέπισης",
-        "en" : "mechanical cleaning of superficial deposits with smoke sponge around flaking areas"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_006",
@@ -6012,6 +5953,33 @@
         "IRI-based" : "ip_cleaning_superficial_deposit_006",
         "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με απορροφητική σκούπα μπαταρίας και πινέλο ξεσκονίσματος",
         "en" : "mechanical cleaning of superficial deposits with battery vacuum cleaner and dusting brush"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_028",
+      "baseIri" : "http://w3id.org/dcri-ont/special",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "mechanical cleaning of superficial deposits with smoke sponge around flaking areas",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "el",
+          "value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης γύρω από περιοχές απολέπισης",
+          "type" : "label"
+        } ],
+        "hasPlanType" : [ {
+          "identifier" : "hasPlanType",
+          "language" : "undefined",
+          "value" : "http://w3id.org/dcri-ont/vocabulary/concept_00021",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ip_cleaning_superficial_deposit_028",
+        "el" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με σφουγγάρι αιθάλης γύρω από περιοχές απολέπισης",
+        "en" : "mechanical cleaning of superficial deposits with smoke sponge around flaking areas"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_007",
@@ -6073,13 +6041,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "στερέωση απολεπίσεων ζωγραφικής με Klucel G σε ισοπροπανόλη σε 0.1 και εφαρμογή με στρογγυλό πινέλο",
+          "language" : "en",
+          "value" : "consolidation of flaking painting with Klucel G in propan-2-ol at 0.1 and application with round brush",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "consolidation of flaking painting with Klucel G in propan-2-ol at 0.1 and application with round brush",
+          "language" : "el",
+          "value" : "στερέωση απολεπίσεων ζωγραφικής με Klucel G σε ισοπροπανόλη σε 0.1 και εφαρμογή με στρογγυλό πινέλο",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -6127,13 +6095,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "στερέωση απολεπίσεων ζωγραφικής με μεθυλοκυτταρίνη σε νερό σε 0.025 και εφαρμογή με ψεκαστήρα με υπερήχους",
+          "language" : "en",
+          "value" : "consolidation of flaking painting with methyl cellulose in water at 0.025 and application with ultrasonic mister",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "consolidation of flaking painting with methyl cellulose in water at 0.025 and application with ultrasonic mister",
+          "language" : "el",
+          "value" : "στερέωση απολεπίσεων ζωγραφικής με μεθυλοκυτταρίνη σε νερό σε 0.025 και εφαρμογή με ψεκαστήρα με υπερήχους",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -6154,13 +6122,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "consolidation of flaking painting with Paraloid B72 in xylene at 0.2 and application with round brush",
+          "language" : "el",
+          "value" : "στερέωση απολεπίσεων ζωγραφικής με Paraloid B72 σε ξυλένιο σε 0.2 και εφαρμογή με στρογγυλό πινέλο",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "στερέωση απολεπίσεων ζωγραφικής με Paraloid B72 σε ξυλένιο σε 0.2 και εφαρμογή με στρογγυλό πινέλο",
+          "language" : "en",
+          "value" : "consolidation of flaking painting with Paraloid B72 in xylene at 0.2 and application with round brush",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -6181,13 +6149,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "στερέωση απολεπίσεων ζωγραφικής με ζελατίνη σε νερό σε 0.1 και εφαρμογή με ψεκαστήρα με υπερήχους",
+          "language" : "en",
+          "value" : "consolidation of flaking painting with gelatin in water at 0.1 and application with ultrasonic mister",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "consolidation of flaking painting with gelatin in water at 0.1 and application with ultrasonic mister",
+          "language" : "el",
+          "value" : "στερέωση απολεπίσεων ζωγραφικής με ζελατίνη σε νερό σε 0.1 και εφαρμογή με ψεκαστήρα με υπερήχους",
           "type" : "label"
         } ],
         "hasPlanType" : [ {
@@ -6309,28 +6277,6 @@
     "attributes" : [ "external" ],
     "id" : "127"
   }, {
-    "iri" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType",
-    "baseIri" : "http://w3id.org/dcri-ont",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType"
-    },
-    "individuals" : [ {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00266",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00266"
-      }
-    }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00267",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00267"
-      }
-    } ],
-    "attributes" : [ "external" ],
-    "id" : "129"
-  }, {
     "iri" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply",
     "baseIri" : "http://w3id.org/dcri-ont",
     "instances" : 0,
@@ -6364,13 +6310,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "round brush",
+          "language" : "el",
+          "value" : "στρογγυλό πινέλο",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "στρογγυλό πινέλο",
+          "language" : "en",
+          "value" : "round brush",
           "type" : "label"
         } ]
       },
@@ -6385,13 +6331,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "ultrasonic mister",
+          "language" : "el",
+          "value" : "ψεκαστήρας με υπερήχους",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "ψεκαστήρας με υπερήχους",
+          "language" : "en",
+          "value" : "ultrasonic mister",
           "type" : "label"
         } ]
       },
@@ -6427,13 +6373,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "battery vacuum cleaner",
+          "language" : "el",
+          "value" : "απορροφητική σκούπα μπαταρίας",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "απορροφητική σκούπα μπαταρίας",
+          "language" : "en",
+          "value" : "battery vacuum cleaner",
           "type" : "label"
         } ]
       },
@@ -6469,13 +6415,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "πιστόλι εκτόξευσης αέρα",
+          "language" : "en",
+          "value" : "air blow gun",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "air blow gun",
+          "language" : "el",
+          "value" : "πιστόλι εκτόξευσης αέρα",
           "type" : "label"
         } ]
       },
@@ -6511,13 +6457,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "σφουγγάρι αιθάλης",
+          "language" : "en",
+          "value" : "smoke sponge",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "smoke sponge",
+          "language" : "el",
+          "value" : "σφουγγάρι αιθάλης",
           "type" : "label"
         } ]
       },
@@ -6553,13 +6499,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μεθυλοκυτταρίνη σε νερό 0.1",
+          "language" : "en",
+          "value" : "methyl cellulose in water at 0.1",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "methyl cellulose in water at 0.1",
+          "language" : "el",
+          "value" : "μεθυλοκυτταρίνη σε νερό 0.1",
           "type" : "label"
         } ]
       },
@@ -6616,13 +6562,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "μεθυλοκυτταρίνη σε νερό 0.025",
+          "language" : "en",
+          "value" : "methyl cellulose in water at 0.025",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "methyl cellulose in water at 0.025",
+          "language" : "el",
+          "value" : "μεθυλοκυτταρίνη σε νερό 0.025",
           "type" : "label"
         } ]
       },
@@ -6700,13 +6646,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "swiffer duster",
+          "language" : "el",
+          "value" : "πανί ξεσκονίσματος Swiffer",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "πανί ξεσκονίσματος Swiffer",
+          "language" : "en",
+          "value" : "swiffer duster",
           "type" : "label"
         } ]
       },
@@ -6742,13 +6688,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "ξεσκονόπανο",
+          "language" : "en",
+          "value" : "dust cloth",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "dust cloth",
+          "language" : "el",
+          "value" : "ξεσκονόπανο",
           "type" : "label"
         } ]
       },
@@ -6763,13 +6709,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "πινέλο ξεσκονίσματος",
+          "language" : "en",
+          "value" : "dusting brush",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "dusting brush",
+          "language" : "el",
+          "value" : "πινέλο ξεσκονίσματος",
           "type" : "label"
         } ]
       },
@@ -6864,7 +6810,7 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "130"
+    "id" : "129"
   }, {
     "iri" : "http://w3id.org/dcri-ont/ConservationObjectType",
     "baseIri" : "http://w3id.org/dcri-ont",
@@ -6927,22 +6873,16 @@
         "IRI-based" : "concept_00215"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00212",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00212"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00245",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00245"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00246",
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00212",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
-        "IRI-based" : "concept_00246"
+        "IRI-based" : "concept_00212"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00213",
@@ -6950,9 +6890,15 @@
       "labels" : {
         "IRI-based" : "concept_00213"
       }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00246",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00246"
+      }
     } ],
     "attributes" : [ "external" ],
-    "id" : "132"
+    "id" : "131"
   }, {
     "iri" : "http://w3id.org/dcri-ont/PlanType",
     "baseIri" : "http://w3id.org/dcri-ont",
@@ -6991,16 +6937,16 @@
         "IRI-based" : "concept_00024"
       }
     }, {
-      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00032",
-      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
-      "labels" : {
-        "IRI-based" : "concept_00032"
-      }
-    }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00021",
       "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
       "labels" : {
         "IRI-based" : "concept_00021"
+      }
+    }, {
+      "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00032",
+      "baseIri" : "http://w3id.org/dcri-ont/vocabulary",
+      "labels" : {
+        "IRI-based" : "concept_00032"
       }
     }, {
       "iri" : "http://w3id.org/dcri-ont/vocabulary/concept_00022",
@@ -7034,7 +6980,7 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "133"
+    "id" : "132"
   }, {
     "iri" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-making",
     "baseIri" : "http://w3id.org/dcri-ont",
@@ -7043,7 +6989,7 @@
       "IRI-based" : "ConservationAndRestorationInterventionDecision-making"
     },
     "attributes" : [ "external" ],
-    "id" : "136"
+    "id" : "135"
   }, {
     "iri" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
     "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
@@ -7057,13 +7003,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "συγκέντρωση Klucel G σε ισοπροπανόλη σε 0.1",
+          "language" : "en",
+          "value" : "concentration of Klucel G in propan-2-ol at 0.1",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "concentration of Klucel G in propan-2-ol at 0.1",
+          "language" : "el",
+          "value" : "συγκέντρωση Klucel G σε ισοπροπανόλη σε 0.1",
           "type" : "label"
         } ],
         "P43i_is_dimension_of" : [ {
@@ -7165,13 +7111,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "concentration of methyl cellulose in water at 0.025",
+          "language" : "el",
+          "value" : "συγκέντρωση μεθυλοκυτταρίνης σε νερό σε 0.025",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "συγκέντρωση μεθυλοκυτταρίνης σε νερό σε 0.025",
+          "language" : "en",
+          "value" : "concentration of methyl cellulose in water at 0.025",
           "type" : "label"
         } ],
         "P43i_is_dimension_of" : [ {
@@ -7219,13 +7165,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "el",
-          "value" : "συγκέντρωση αιθανόλης σε νερό 0.5",
+          "language" : "en",
+          "value" : "concentration of ethanol in water at 0.5",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "concentration of ethanol in water at 0.5",
+          "language" : "el",
+          "value" : "συγκέντρωση αιθανόλης σε νερό 0.5",
           "type" : "label"
         } ],
         "P43i_is_dimension_of" : [ {
@@ -7269,7 +7215,7 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "137"
+    "id" : "136"
   } ],
   "property" : [ {
     "id" : "0",
@@ -7341,13 +7287,13 @@
     "id" : "72",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "74",
+    "id" : "73",
     "type" : "owl:objectProperty"
   }, {
     "id" : "75",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "76",
+    "id" : "77",
     "type" : "owl:objectProperty"
   }, {
     "id" : "78",
@@ -7410,11 +7356,11 @@
     "id" : "110",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "112",
     "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "77",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "105",
     "type" : "owl:objectProperty"
@@ -7446,7 +7392,7 @@
     "id" : "123",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "73",
+    "id" : "76",
     "type" : "owl:objectProperty"
   }, {
     "id" : "103",
@@ -7476,13 +7422,13 @@
     "id" : "102",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "131",
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
     "type" : "owl:objectProperty"
   }, {
     "id" : "134",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "135",
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
@@ -7497,13 +7443,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "is size qualitative value of",
+        "language" : "el",
+        "value" : "είναι ποιοτική τιμή μεγέθους",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "είναι ποιοτική τιμή μεγέθους",
+        "language" : "en",
+        "value" : "is size qualitative value of",
         "type" : "label"
       } ]
     },
@@ -7524,7 +7470,7 @@
       "IRI-based" : "considers"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "8"
   }, {
     "range" : "2",
@@ -7544,7 +7490,7 @@
       "IRI-based" : "isSolutionOf"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "27"
   }, {
     "iri" : "http://www.cidoc-crm.org/cidoc-crm/P45_consists_of",
@@ -7554,7 +7500,7 @@
       "IRI-based" : "P45_consists_of"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "28"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/hasHeightQuantitativeValue",
@@ -7609,7 +7555,7 @@
       "IRI-based" : "isAboutCertainType"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "35"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/hasAirVelocityQualitativeValue",
@@ -7646,7 +7592,7 @@
       "IRI-based" : "requiresAbsenceOf"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "50"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/isPhysicalFeatureExtentQualitativeValueOf",
@@ -7681,13 +7627,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "is application extent qualitative value of",
+        "language" : "el",
+        "value" : "είναι ποιοτική τιμή έκτασης εφαρμογής",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "είναι ποιοτική τιμή έκτασης εφαρμογής",
+        "language" : "en",
+        "value" : "is application extent qualitative value of",
         "type" : "label"
       } ]
     },
@@ -7759,13 +7705,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "has physical feature qualitative value",
+        "language" : "el",
+        "value" : "έχει ποιοτική τιμή έκτασης φυσικού χαρακτηριστικού",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "έχει ποιοτική τιμή έκτασης φυσικού χαρακτηριστικού",
+        "language" : "en",
+        "value" : "has physical feature qualitative value",
         "type" : "label"
       } ]
     },
@@ -7786,7 +7732,7 @@
       "IRI-based" : "P17_was_motivated_by"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "60"
   }, {
     "range" : "2",
@@ -7806,13 +7752,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "has adhesion strength qualitative value",
+        "language" : "el",
+        "value" : "έχει ποιοτική τιμή ισχύος συγκόλλησης",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "έχει ποιοτική τιμή ισχύος συγκόλλησης",
+        "language" : "en",
+        "value" : "has adhesion strength qualitative value",
         "type" : "label"
       } ]
     },
@@ -7832,13 +7778,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "is optical stability qualitative value of",
+        "language" : "el",
+        "value" : "είναι ποιοτική τιμή οπτικής σταθερότητας",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "είναι ποιοτική τιμή οπτικής σταθερότητας",
+        "language" : "en",
+        "value" : "is optical stability qualitative value of",
         "type" : "label"
       } ]
     },
@@ -7851,43 +7797,6 @@
     "domain" : "69",
     "attributes" : [ "object" ],
     "id" : "68"
-  }, {
-    "iri" : "http://w3id.org/dcri-ont/special/hasApplicationDistanceQualitativeValue",
-    "inverse" : "73",
-    "baseIri" : "http://w3id.org/dcri-ont/special",
-    "range" : "40",
-    "annotations" : {
-      "prefLabel" : [ {
-        "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "έχει ποιοτική τιμή απόστασης εφαρμογής",
-        "type" : "label"
-      }, {
-        "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "has application distance qualitative value",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasApplicationDistanceQualitativeValue",
-      "el" : "έχει ποιοτική τιμή απόστασης εφαρμογής",
-      "en" : "has application distance qualitative value"
-    },
-    "superproperty" : [ "46" ],
-    "domain" : "38",
-    "attributes" : [ "object" ],
-    "id" : "72"
-  }, {
-    "iri" : "http://w3id.org/dcri-ont/specifiesConservationAndRestorationInterventionSupply",
-    "baseIri" : "http://w3id.org/dcri-ont",
-    "range" : "9",
-    "label" : {
-      "IRI-based" : "specifiesConservationAndRestorationInterventionSupply"
-    },
-    "domain" : "9",
-    "attributes" : [ "object", "external" ],
-    "id" : "74"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/isPowerSupplyQualitativeValueOf",
     "baseIri" : "http://w3id.org/dcri-ont/special",
@@ -7913,10 +7822,10 @@
     "superproperty" : [ "7" ],
     "domain" : "10",
     "attributes" : [ "object" ],
-    "id" : "75"
+    "id" : "72"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue",
-    "inverse" : "77",
+    "inverse" : "74",
     "baseIri" : "http://w3id.org/dcri-ont/special",
     "range" : "71",
     "annotations" : {
@@ -7940,7 +7849,44 @@
     "superproperty" : [ "46" ],
     "domain" : "42",
     "attributes" : [ "object" ],
-    "id" : "76"
+    "id" : "73"
+  }, {
+    "iri" : "http://w3id.org/dcri-ont/special/hasApplicationDistanceQualitativeValue",
+    "inverse" : "76",
+    "baseIri" : "http://w3id.org/dcri-ont/special",
+    "range" : "40",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "has application distance qualitative value",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "el",
+        "value" : "έχει ποιοτική τιμή απόστασης εφαρμογής",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasApplicationDistanceQualitativeValue",
+      "el" : "έχει ποιοτική τιμή απόστασης εφαρμογής",
+      "en" : "has application distance qualitative value"
+    },
+    "superproperty" : [ "46" ],
+    "domain" : "38",
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://w3id.org/dcri-ont/specifiesConservationAndRestorationInterventionSupply",
+    "baseIri" : "http://w3id.org/dcri-ont",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "specifiesConservationAndRestorationInterventionSupply"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "object" ],
+    "id" : "77"
   }, {
     "iri" : "http://w3id.org/dcri-ont/hasRequirement",
     "baseIri" : "http://w3id.org/dcri-ont",
@@ -7949,7 +7895,7 @@
       "IRI-based" : "hasRequirement"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "78"
   }, {
     "range" : "2",
@@ -8082,7 +8028,7 @@
       "IRI-based" : "involvesChoosing"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "93"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/isAdhesionStrengthQualitativeValueOf",
@@ -8091,13 +8037,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "είναι ποιοτική τιμή ισχύος συγκόλλησης του",
+        "language" : "en",
+        "value" : "is adhesion strength qualitative value of",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "is adhesion strength qualitative value of",
+        "language" : "el",
+        "value" : "είναι ποιοτική τιμή ισχύος συγκόλλησης του",
         "type" : "label"
       } ]
     },
@@ -8117,13 +8063,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "έχει ποσοτική τιμή σχετικής υγρασίας",
+        "language" : "en",
+        "value" : "has relative humidity quantitative value",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "has relative humidity quantitative value",
+        "language" : "el",
+        "value" : "έχει ποσοτική τιμή σχετικής υγρασίας",
         "type" : "label"
       } ]
     },
@@ -8143,8 +8089,8 @@
       "IRI-based" : "hasQualitativeValue"
     },
     "domain" : "9",
-    "subproperty" : [ "100", "65", "101", "72", "76", "102", "81", "103", "57", "56", "44", "104", "105" ],
-    "attributes" : [ "object", "external" ],
+    "subproperty" : [ "100", "65", "101", "75", "73", "102", "81", "103", "57", "56", "44", "104", "105" ],
+    "attributes" : [ "external", "object" ],
     "id" : "46"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/hasDepthQuantitativeValue",
@@ -8173,7 +8119,7 @@
       "IRI-based" : "hasIssue"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "109"
   }, {
     "iri" : "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
@@ -8183,18 +8129,8 @@
       "IRI-based" : "P2_has_type"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "110"
-  }, {
-    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
-    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
-    "range" : "39",
-    "label" : {
-      "IRI-based" : "P90_has_value"
-    },
-    "domain" : "9",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "112"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf",
     "baseIri" : "http://w3id.org/dcri-ont/special",
@@ -8202,13 +8138,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "είναι ποιοτική τιμή διαλυτότητας σε διαλύτη",
+        "language" : "en",
+        "value" : "is solubility in solvent qualitative value of",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "is solubility in solvent qualitative value of",
+        "language" : "el",
+        "value" : "είναι ποιοτική τιμή διαλυτότητας σε διαλύτη",
         "type" : "label"
       } ]
     },
@@ -8220,7 +8156,17 @@
     "superproperty" : [ "7" ],
     "domain" : "71",
     "attributes" : [ "object" ],
-    "id" : "77"
+    "id" : "74"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "P90_has_value"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "112"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue",
     "inverse" : "113",
@@ -8256,13 +8202,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "έχει ποιοτική τιμή χώρου εκτέλεσης",
+        "language" : "en",
+        "value" : "has performance space qualitative value",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "has performance space qualitative value",
+        "language" : "el",
+        "value" : "έχει ποιοτική τιμή χώρου εκτέλεσης",
         "type" : "label"
       } ]
     },
@@ -8282,13 +8228,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "is optical stability qualitative value of",
+        "language" : "el",
+        "value" : "είναι ποιοτική τιμή οπτικής σταθερότητας",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "είναι ποιοτική τιμή οπτικής σταθερότητας",
+        "language" : "en",
+        "value" : "is optical stability qualitative value of",
         "type" : "label"
       } ]
     },
@@ -8386,13 +8332,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "είναι ποιοτική τιμή διαλυτότητας σε διαλύτη",
+        "language" : "en",
+        "value" : "is solubility in solvent qualitative value of",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "is solubility in solvent qualitative value of",
+        "language" : "el",
+        "value" : "είναι ποιοτική τιμή διαλυτότητας σε διαλύτη",
         "type" : "label"
       } ]
     },
@@ -8413,7 +8359,7 @@
       "IRI-based" : "P43_has_dimension"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "121"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/isAirVelocityQualitativeValueOf",
@@ -8448,13 +8394,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "is application extent qualitative value of",
+        "language" : "el",
+        "value" : "είναι ποιοτική τιμή έκτασης εφαρμογής",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "είναι ποιοτική τιμή έκτασης εφαρμογής",
+        "language" : "en",
+        "value" : "is application extent qualitative value of",
         "type" : "label"
       } ]
     },
@@ -8474,13 +8420,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "είναι ποιοτική τιμή απόστασης εφαρμογής",
+        "language" : "en",
+        "value" : "is application distance qualitative value of",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "is application distance qualitative value of",
+        "language" : "el",
+        "value" : "είναι ποιοτική τιμή απόστασης εφαρμογής",
         "type" : "label"
       } ]
     },
@@ -8492,7 +8438,7 @@
     "superproperty" : [ "7" ],
     "domain" : "40",
     "attributes" : [ "object" ],
-    "id" : "73"
+    "id" : "76"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/hasPortabilityQualitativeValue",
     "inverse" : "124",
@@ -8555,8 +8501,8 @@
       "IRI-based" : "isQualitativeValueOf"
     },
     "domain" : "9",
-    "subproperty" : [ "124", "68", "4", "113", "75", "31", "114", "51", "53", "67", "73", "77", "45" ],
-    "attributes" : [ "object", "external" ],
+    "subproperty" : [ "124", "68", "4", "113", "72", "31", "114", "51", "53", "67", "76", "74", "45" ],
+    "attributes" : [ "external", "object" ],
     "id" : "7"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/isPortabilityQualitativeValueOf",
@@ -8586,7 +8532,7 @@
     "id" : "124"
   }, {
     "iri" : "http://w3id.org/dcri-ont/special/hasPowerSupplyQualitativeValue",
-    "inverse" : "75",
+    "inverse" : "72",
     "baseIri" : "http://w3id.org/dcri-ont/special",
     "range" : "10",
     "annotations" : {
@@ -8663,13 +8609,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "is performance space qualitative value of",
+        "language" : "el",
+        "value" : "είναι ποιοτική τιμή χώρου εκτέλεσης",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "είναι ποιοτική τιμή χώρου εκτέλεσης",
+        "language" : "en",
+        "value" : "is performance space qualitative value of",
         "type" : "label"
       } ]
     },
@@ -8690,13 +8636,13 @@
     "annotations" : {
       "prefLabel" : [ {
         "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "has air flow qualitative value",
+        "language" : "el",
+        "value" : "έχει ποιοτική τιμή ροής αέρα",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "el",
-        "value" : "έχει ποιοτική τιμή ροής αέρα",
+        "language" : "en",
+        "value" : "has air flow qualitative value",
         "type" : "label"
       } ]
     },
@@ -8717,8 +8663,8 @@
       "IRI-based" : "hasConservationAndRestorationInterventionSupplyType"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
-    "id" : "131"
+    "attributes" : [ "external", "object" ],
+    "id" : "130"
   }, {
     "iri" : "http://w3id.org/dcri-ont/refersToPropertyType",
     "baseIri" : "http://w3id.org/dcri-ont",
@@ -8727,8 +8673,8 @@
       "IRI-based" : "refersToPropertyType"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
-    "id" : "134"
+    "attributes" : [ "external", "object" ],
+    "id" : "133"
   }, {
     "iri" : "http://w3id.org/dcri-ont/stipulates",
     "baseIri" : "http://w3id.org/dcri-ont",
@@ -8737,7 +8683,7 @@
       "IRI-based" : "stipulates"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
-    "id" : "135"
+    "attributes" : [ "external", "object" ],
+    "id" : "134"
   } ]
 }
