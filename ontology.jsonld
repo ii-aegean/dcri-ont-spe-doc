@@ -11,42 +11,49 @@
 }, {
   "@id" : "_:genid100",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00058"
-    }, {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00059"
-    }, {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00060"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid104",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
     }, {
-      "@id" : "_:genid106"
+      "@id" : "_:genid102"
     } ]
   } ]
 }, {
-  "@id" : "_:genid106",
+  "@id" : "_:genid102",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00041"
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00042"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
   } ]
 }, {
-  "@id" : "_:genid108",
+  "@id" : "_:genid104",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00033"
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00035"
     }, {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00034"
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00036"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/isPowerSupplyQualitativeValueOf"
+  } ]
+}, {
+  "@id" : "_:genid108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
+    }, {
+      "@id" : "_:genid110"
     } ]
   } ]
 }, {
@@ -59,64 +66,7 @@
     "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
   } ]
 }, {
-  "@id" : "_:genid111",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/isPortabilityQualitativeValueOf"
-  } ]
-}, {
-  "@id" : "_:genid112",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
-    }, {
-      "@id" : "_:genid114"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid114",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00042"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
-  } ]
-}, {
-  "@id" : "_:genid116",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00035"
-    }, {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00036"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid119",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/isPowerSupplyQualitativeValueOf"
-  } ]
-}, {
-  "@id" : "_:genid120",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
-    }, {
-      "@id" : "_:genid122"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid122",
+  "@id" : "_:genid110",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00197"
@@ -125,7 +75,7 @@
     "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
   } ]
 }, {
-  "@id" : "_:genid124",
+  "@id" : "_:genid112",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -141,6 +91,46 @@
     } ]
   } ]
 }, {
+  "@id" : "_:genid118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00003"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00004"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid121",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00005"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00006"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00005"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00007"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00005"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00008"
+    } ]
+  } ]
+}, {
   "@id" : "_:genid13",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
@@ -152,44 +142,393 @@
   } ]
 }, {
   "@id" : "_:genid130",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
     "@list" : [ {
-      "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00005"
     }, {
-      "@id" : "_:genid132"
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00009"
     } ]
   } ]
 }, {
-  "@id" : "_:genid132",
+  "@id" : "_:genid133",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00006"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00007"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid136",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00006"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00008"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid139",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00006"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00009"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid142",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00007"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00008"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid145",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00007"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00009"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid148",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00008"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00009"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00046"
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00258"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
   } ]
 }, {
-  "@id" : "_:genid134",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+  "@id" : "_:genid151",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
     "@list" : [ {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00001"
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00010"
     }, {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00002"
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00011"
     } ]
   } ]
 }, {
-  "@id" : "_:genid137",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf"
+  "@id" : "_:genid154",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00012"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00013"
+    } ]
   } ]
 }, {
-  "@id" : "_:genid138",
+  "@id" : "_:genid157",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00025"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00026"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid160",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00025"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00052"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid163",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00026"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00052"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid166",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00029"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00030"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid169",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00029"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00031"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+    }, {
+      "@id" : "_:genid19"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid172",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00029"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00032"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid175",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00030"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00031"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid178",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00030"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00032"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid181",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00031"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00032"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid184",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00033"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00034"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid187",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00035"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00036"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00256"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
+  } ]
+}, {
+  "@id" : "_:genid190",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00049"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00050"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid193",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00049"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00051"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid196",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00050"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00051"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid199",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00053"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00054"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid202",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00053"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00055"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid205",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00053"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00061"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid208",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00053"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00062"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+    }, {
+      "@id" : "_:genid23"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00054"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00055"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid214",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00054"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00061"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid217",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00054"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00062"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid220",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00055"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00061"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid223",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00055"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00062"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid226",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00056"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00057"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid229",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00061"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00062"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00161"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
+  } ]
+}, {
+  "@id" : "_:genid232",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
   "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -203,34 +542,34 @@
   } ],
   "http://www.w3.org/2003/11/swrl#body" : [ {
     "@list" : [ {
-      "@id" : "_:genid158"
+      "@id" : "_:genid252"
     }, {
-      "@id" : "_:genid156"
+      "@id" : "_:genid250"
     }, {
-      "@id" : "_:genid154"
+      "@id" : "_:genid248"
     }, {
-      "@id" : "_:genid152"
+      "@id" : "_:genid246"
     }, {
-      "@id" : "_:genid150"
+      "@id" : "_:genid244"
     }, {
-      "@id" : "_:genid148"
+      "@id" : "_:genid242"
     }, {
-      "@id" : "_:genid146"
+      "@id" : "_:genid240"
     }, {
-      "@id" : "_:genid144"
+      "@id" : "_:genid238"
     }, {
-      "@id" : "_:genid142"
+      "@id" : "_:genid236"
     }, {
-      "@id" : "_:genid140"
+      "@id" : "_:genid234"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#head" : [ {
     "@list" : [ {
-      "@id" : "_:genid160"
+      "@id" : "_:genid254"
     } ]
   } ]
 }, {
-  "@id" : "_:genid140",
+  "@id" : "_:genid234",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/e"
@@ -239,7 +578,7 @@
     "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
   } ]
 }, {
-  "@id" : "_:genid142",
+  "@id" : "_:genid236",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/a"
@@ -248,7 +587,7 @@
     "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-making"
   } ]
 }, {
-  "@id" : "_:genid144",
+  "@id" : "_:genid238",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/obj"
@@ -260,7 +599,7 @@
     "@id" : "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
   } ]
 }, {
-  "@id" : "_:genid146",
+  "@id" : "_:genid240",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/a"
@@ -272,7 +611,7 @@
     "@id" : "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by"
   } ]
 }, {
-  "@id" : "_:genid148",
+  "@id" : "_:genid242",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/a"
@@ -284,16 +623,7 @@
     "@id" : "http://w3id.org/dcri-ont/considers"
   } ]
 }, {
-  "@id" : "_:genid15",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00258"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
-  } ]
-}, {
-  "@id" : "_:genid150",
+  "@id" : "_:genid244",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/b"
@@ -302,7 +632,7 @@
     "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"
   } ]
 }, {
-  "@id" : "_:genid152",
+  "@id" : "_:genid246",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/c"
@@ -311,7 +641,7 @@
     "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject"
   } ]
 }, {
-  "@id" : "_:genid154",
+  "@id" : "_:genid248",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/obj"
@@ -320,7 +650,17 @@
     "@id" : "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"
   } ]
 }, {
-  "@id" : "_:genid156",
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
+    }, {
+      "@id" : "_:genid27"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid250",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/c"
@@ -332,7 +672,7 @@
     "@id" : "http://w3id.org/dcri-ont/isAboutCertainType"
   } ]
 }, {
-  "@id" : "_:genid158",
+  "@id" : "_:genid252",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/b"
@@ -344,7 +684,7 @@
     "@id" : "http://w3id.org/dcri-ont/hasRequirement"
   } ]
 }, {
-  "@id" : "_:genid160",
+  "@id" : "_:genid254",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "http://www.semanticweb.org/dcri-ont/special/a"
@@ -354,54 +694,6 @@
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
     "@id" : "http://w3id.org/dcri-ont/stipulates"
-  } ]
-}, {
-  "@id" : "_:genid17",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
-    }, {
-      "@id" : "_:genid19"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid19",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00256"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
-  } ]
-}, {
-  "@id" : "_:genid21",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
-    }, {
-      "@id" : "_:genid23"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid23",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00161"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
-  } ]
-}, {
-  "@id" : "_:genid25",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
-    }, {
-      "@id" : "_:genid27"
-    } ]
   } ]
 }, {
   "@id" : "_:genid27",
@@ -646,32 +938,13 @@
   "@id" : "_:genid77",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00040"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
-  } ]
-}, {
-  "@id" : "_:genid79",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
-    }, {
-      "@id" : "_:genid81"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid81",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00029"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
   } ]
 }, {
-  "@id" : "_:genid83",
+  "@id" : "_:genid79",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
@@ -685,7 +958,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid88",
+  "@id" : "_:genid84",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity"
@@ -694,13 +967,32 @@
     "@id" : "http://w3id.org/dcri-ont/special/isPerformanceSpeedQualitativeValueOf"
   } ]
 }, {
-  "@id" : "_:genid89",
+  "@id" : "_:genid85",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
     }, {
-      "@id" : "_:genid91"
+      "@id" : "_:genid87"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid87",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00200"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00056"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00057"
     } ]
   } ]
 }, {
@@ -714,42 +1006,42 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid91",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00200"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
-  } ]
-}, {
-  "@id" : "_:genid93",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#oneOf" : [ {
-    "@list" : [ {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00056"
-    }, {
-      "@id" : "http://w3id.org/dcri-ont/special/qv_00057"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid96",
+  "@id" : "_:genid92",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
     }, {
-      "@id" : "_:genid98"
+      "@id" : "_:genid94"
     } ]
   } ]
 }, {
-  "@id" : "_:genid98",
+  "@id" : "_:genid94",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00204"
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00041"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://w3id.org/dcri-ont/refersToPropertyType"
+  } ]
+}, {
+  "@id" : "_:genid96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00033"
+    }, {
+      "@id" : "http://w3id.org/dcri-ont/special/qv_00034"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/isPortabilityQualitativeValueOf"
   } ]
 }, {
   "@id" : "http://purl.org/dc/terms/creator",
@@ -768,6 +1060,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/ActorType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/CommercialAppellation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/ConditionStateType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-making",
@@ -815,6 +1113,9 @@
   "@id" : "http://w3id.org/dcri-ont/ConservationObjectType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
+  "@id" : "http://w3id.org/dcri-ont/DocumentType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
   "@id" : "http://w3id.org/dcri-ont/EquipmentType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
@@ -839,6 +1140,9 @@
   "@id" : "http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
+  "@id" : "http://w3id.org/dcri-ont/hasDocumentType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://w3id.org/dcri-ont/hasIssue",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
@@ -859,6 +1163,9 @@
 }, {
   "@id" : "http://w3id.org/dcri-ont/isAboutCertainType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/isCommercialAppellationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/isCriterionOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -1078,29 +1385,6 @@
     "@value" : "Ποιοτική Τιμή Οπτικής Σταθερότητας"
   } ]
 }, {
-  "@id" : "http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Performance Space Qualitative Value"
-  }, {
-    "@language" : "el",
-    "@value" : "Ποιοτική Τιμή Χώρου Εκτέλεσης"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid75"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "Performance Space Qualitative Value"
-  }, {
-    "@language" : "el",
-    "@value" : "Ποιοτική Τιμή Χώρου Εκτέλεσης"
-  } ]
-}, {
   "@id" : "http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -1113,12 +1397,12 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
   }, {
-    "@id" : "_:genid88"
+    "@id" : "_:genid84"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid79"
+    "@id" : "_:genid75"
   }, {
-    "@id" : "_:genid83"
+    "@id" : "_:genid79"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1141,9 +1425,9 @@
     "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid89"
+    "@id" : "_:genid85"
   }, {
-    "@id" : "_:genid93"
+    "@id" : "_:genid89"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1151,31 +1435,6 @@
   }, {
     "@language" : "el",
     "@value" : "Ποιοτική Τιμή Έκτασης Φυσικού Χαρακτηριστικού"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Polymerism degree qualitative value"
-  }, {
-    "@language" : "el",
-    "@value" : "Ποιοτική τιμή βαθμού πολυμερισμού"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid96"
-  }, {
-    "@id" : "_:genid100"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "Polymerism degree qualitative value"
-  }, {
-    "@language" : "el",
-    "@value" : "Ποιοτική τιμή βαθμού πολυμερισμού"
   } ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/special/PortabilityQualitativeValue",
@@ -1190,12 +1449,12 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
   }, {
-    "@id" : "_:genid111"
+    "@id" : "_:genid99"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid104"
+    "@id" : "_:genid92"
   }, {
-    "@id" : "_:genid108"
+    "@id" : "_:genid96"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1217,12 +1476,12 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
   }, {
-    "@id" : "_:genid119"
+    "@id" : "_:genid107"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid112"
+    "@id" : "_:genid100"
   }, {
-    "@id" : "_:genid116"
+    "@id" : "_:genid104"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1245,9 +1504,9 @@
     "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid120"
+    "@id" : "_:genid108"
   }, {
-    "@id" : "_:genid124"
+    "@id" : "_:genid112"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1257,31 +1516,38 @@
     "@value" : "Ποιοτική Τιμή Μεγέθους"
   } ]
 }, {
-  "@id" : "http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "@id" : "http://w3id.org/dcri-ont/special/ca_klucel-g",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/dcri-ont/isCommercialAppellationOf" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00254"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/CommercialAppellation"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Solubility in Solvent Qualitative Value"
-  }, {
-    "@language" : "el",
-    "@value" : "Ποιοτική Τιμή Διαλυτότητας σε Διαλύτη"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://w3id.org/dcri-ont/QualitativeValue"
-  }, {
-    "@id" : "_:genid137"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid130"
-  }, {
-    "@id" : "_:genid134"
+    "@value" : "Klucel G"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
-    "@value" : "Solubility in Solvent Qualitative Value"
-  }, {
-    "@language" : "el",
-    "@value" : "Ποιοτική Τιμή Διαλυτότητας σε Διαλύτη"
+    "@value" : "Klucel G"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/ca_paraloid-b72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/dcri-ont/isCommercialAppellationOf" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00169"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/CommercialAppellation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Paraloid B72"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Paraloid B72"
   } ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/special/d_concentration_material_001",
@@ -1638,9 +1904,13 @@
   "http://w3id.org/dcri-ont/hasRequirement" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -1655,8 +1925,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"
   } ],
   "http://w3id.org/dcri-ont/involvesChoosing" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_009"
@@ -1687,8 +1955,6 @@
   "http://w3id.org/dcri-ont/hasRequirement" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"
@@ -1714,8 +1980,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"
   } ],
   "http://w3id.org/dcri-ont/involvesChoosing" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_010"
@@ -1746,11 +2010,13 @@
   "http://w3id.org/dcri-ont/hasRequirement" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -1765,8 +2031,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"
   } ],
   "http://w3id.org/dcri-ont/involvesChoosing" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_003"
@@ -1797,15 +2061,13 @@
   "http://w3id.org/dcri-ont/hasRequirement" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -1822,8 +2084,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"
   } ],
   "http://w3id.org/dcri-ont/involvesChoosing" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_004"
@@ -1854,9 +2114,13 @@
   "http://w3id.org/dcri-ont/hasRequirement" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -1871,8 +2135,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"
   } ],
   "http://w3id.org/dcri-ont/involvesChoosing" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_005"
@@ -1903,8 +2165,6 @@
   "http://w3id.org/dcri-ont/hasRequirement" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"
@@ -1930,8 +2190,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"
   } ],
   "http://w3id.org/dcri-ont/involvesChoosing" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_006"
@@ -2031,6 +2289,8 @@
   "@id" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_009",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://w3id.org/dcri-ont/hasRequirement" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_001"
+  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_003"
@@ -2083,8 +2343,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"
   }, {
@@ -2707,8 +2965,6 @@
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"
   }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"
-  }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"
@@ -2779,8 +3035,6 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
-  }, {
-    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_016"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
   }, {
@@ -3138,6 +3392,8 @@
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_031"
   }, {
     "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_033"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_043"
   } ],
   "http://w3id.org/dcri-ont/involvesChoosing" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_032"
@@ -3267,11 +3523,58 @@
     "@value" : "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung friability areas"
   }, {
     "@language" : "el",
-    "@value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"
+    "@value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung friability areas"
+  }, {
+    "@language" : "el",
+    "@value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/dcri-ont/hasRequirement" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_021"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_030"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_031"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_033"
+  } ],
+  "http://w3id.org/dcri-ont/involvesChoosing" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035"
+  } ],
+  "http://w3id.org/dcri-ont/isSolutionOf" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung flaking areas"
+  }, {
+    "@language" : "el",
+    "@value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung flaking areas"
   }, {
     "@language" : "el",
     "@value" : "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"
@@ -3893,6 +4196,32 @@
   }, {
     "@language" : "el",
     "@value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/dcri-ont/isAboutCertainType" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00218"
+  } ],
+  "http://w3id.org/dcri-ont/requiresAbsenceOf" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00189"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "requirement for conservation object about emulsion absence"
+  }, {
+    "@language" : "el",
+    "@value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "requirement for conservation object about emulsion absence"
+  }, {
+    "@language" : "el",
+    "@value" : "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"
   } ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018",
@@ -4925,6 +5254,176 @@
     "@value" : "απαίτηση για το πλάνο σχετικά με την απουσία ολικής εφαρμογής"
   } ]
 }, {
+  "@id" : "http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/dcri-ont/hasDocumentType" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00275"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P102_has_title" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P3_has_note" : [ {
+    "@value" : "https://www.conservation-wiki.com/wiki/BPG_Consolidation,_Fixing,_and_Facing"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P70_documents" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_001"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_003"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_006"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E31_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AIC wiki, BPG Consolidation-Fixing-Facing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AIC wiki, BPG Consolidation-Fixing-Facing"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/dcri-ont/hasDocumentType" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00274"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P102_has_title" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P3_has_note" : [ {
+    "@value" : "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.dcr.fct.unl.pt/sites/www.dcr.fct.unl.pt/files/borges_2018.pdf"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P70_documents" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E31_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Elsevier, Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Elsevier, Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/dcri-ont/hasDocumentType" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00274"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P102_has_title" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P3_has_note" : [ {
+    "@value" : "https://www.tandfonline.com/doi/abs/10.1080/03094227.1998.9638607"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P70_documents" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_003"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_005"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_006"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E31_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The paper conservator, The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "The paper conservator, The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/dcri-ont/hasDocumentType" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00275"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P102_has_title" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P3_has_note" : [ {
+    "@value" : "https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v14/bp14-03.html"
+  } ],
+  "http://www.cidoc-crm.org/cidoc-crm/P70_documents" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_002"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_004"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E31_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AIC, BPG Annual, The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AIC, BPG Annual, The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E35_Title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BPG Consolidation, Fixing, and Facing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BPG Consolidation, Fixing, and Facing"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E35_Title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E35_Title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E35_Title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"
+  } ]
+}, {
   "@id" : "http://w3id.org/dcri-ont/special/hasAdhesionStrengthQualitativeValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -5112,6 +5611,86 @@
     "@value" : "has height quantitative value"
   } ]
 }, {
+  "@id" : "http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has maximum relative humidity quantitative value"
+  }, {
+    "@language" : "el",
+    "@value" : "έχει μέγιστη ποσοτική τιμή σχετικής υγρασίας"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "has maximum relative humidity quantitative value"
+  }, {
+    "@language" : "el",
+    "@value" : "έχει μέγιστη ποσοτική τιμή σχετικής υγρασίας"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has maximum temperature quantitative value"
+  }, {
+    "@language" : "el",
+    "@value" : "έχει μέγιστη ποσοτική τιμή θερμοκρασίας"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/hasTemperatureQuantitativeValue"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "has maximum temperature quantitative value"
+  }, {
+    "@language" : "el",
+    "@value" : "έχει μέγιστη ποσοτική τιμή θερμοκρασίας"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has minimum relative humidity quantitative value"
+  }, {
+    "@language" : "el",
+    "@value" : "έχει ελάχιστη ποσοτική τιμή σχετικής υγρασίας"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "has minimum relative humidity quantitative value"
+  }, {
+    "@language" : "el",
+    "@value" : "έχει ελάχιστη ποσοτική τιμή σχετικής υγρασίας"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has minimun temperature quantitative value"
+  }, {
+    "@language" : "el",
+    "@value" : "έχει ελάχιστη ποσοτική τιμή θερμοκρασίας"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/hasTemperatureQuantitativeValue"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "has minimun temperature quantitative value"
+  }, {
+    "@language" : "el",
+    "@value" : "έχει ελάχιστη ποσοτική τιμή θερμοκρασίας"
+  } ]
+}, {
   "@id" : "http://w3id.org/dcri-ont/special/hasOpticalStabilityQualitativeValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -5136,32 +5715,6 @@
   }, {
     "@language" : "el",
     "@value" : "έχει ποιοτική τιμή οπτικής σταθερότητας"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "has performance space qualitative value"
-  }, {
-    "@language" : "el",
-    "@value" : "έχει ποιοτική τιμή χώρου εκτέλεσης"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://w3id.org/dcri-ont/hasQualitativeValue"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "has performance space qualitative value"
-  }, {
-    "@language" : "el",
-    "@value" : "έχει ποιοτική τιμή χώρου εκτέλεσης"
   } ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue",
@@ -5312,32 +5865,6 @@
   }, {
     "@language" : "el",
     "@value" : "έχει ποιοτική τιμή μεγέθους"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "has solubility in solvent qualitative value"
-  }, {
-    "@language" : "el",
-    "@value" : "έχει ποιοτική τιμή διαλυτότητας σε διαλύτη"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://w3id.org/dcri-ont/hasQualitativeValue"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "has solubility in solvent qualitative value"
-  }, {
-    "@language" : "el",
-    "@value" : "έχει ποιοτική τιμή διαλυτότητας σε διαλύτη"
   } ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/special/hasTemperatureQuantitativeValue",
@@ -6481,11 +7008,48 @@
     "@value" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas"
   }, {
     "@language" : "el",
-    "@value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"
+    "@value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas"
+  }, {
+    "@language" : "el",
+    "@value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευρθρυπτότητας"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/dcri-ont/hasPlanType" : [ {
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00021"
+  } ],
+  "http://w3id.org/dcri-ont/special/hasApplicationDistanceQualitativeValue" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/qv_00011"
+  } ],
+  "http://w3id.org/dcri-ont/special/hasApplicationExtentQualitativeValue" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/qv_00012"
+  } ],
+  "http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/qv_00032"
+  } ],
+  "http://w3id.org/dcri-ont/specifiesConservationAndRestorationInterventionSupply" : [ {
+    "@id" : "http://w3id.org/dcri-ont/special/is_equipment_001"
+  }, {
+    "@id" : "http://w3id.org/dcri-ont/special/is_equipment_006"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/RemedialConservationAndRestorationInterventionPlan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush around flaking areas"
+  }, {
+    "@language" : "el",
+    "@value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "mechanical cleaning of superficial deposits with dust bulb and dusting brush around flaking areas"
   }, {
     "@language" : "el",
     "@value" : "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"
@@ -6833,29 +7397,6 @@
     "@value" : "είναι ποιοτική τιμή οπτικής σταθερότητας"
   } ]
 }, {
-  "@id" : "http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "is performance space qualitative value of"
-  }, {
-    "@language" : "el",
-    "@value" : "είναι ποιοτική τιμή χώρου εκτέλεσης"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://w3id.org/dcri-ont/isQualitativeValueOf"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "is performance space qualitative value of"
-  }, {
-    "@language" : "el",
-    "@value" : "είναι ποιοτική τιμή χώρου εκτέλεσης"
-  } ]
-}, {
   "@id" : "http://w3id.org/dcri-ont/special/isPerformanceSpeedQualitativeValueOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -6969,29 +7510,6 @@
   }, {
     "@language" : "el",
     "@value" : "είναι ποιοτική τιμή μεγέθους"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "is solubility in solvent qualitative value of"
-  }, {
-    "@language" : "el",
-    "@value" : "είναι ποιοτική τιμή διαλυτότητας σε διαλύτη"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://w3id.org/dcri-ont/isQualitativeValueOf"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "is solubility in solvent qualitative value of"
-  }, {
-    "@language" : "el",
-    "@value" : "είναι ποιοτική τιμή διαλυτότητας σε διαλύτη"
   } ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/special/is_equipment_001",
@@ -7514,7 +8032,7 @@
   "@id" : "http://w3id.org/dcri-ont/special/is_material_001",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00158"
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00278"
   } ],
   "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/d_concentration_material_001"
@@ -7545,7 +8063,7 @@
   "@id" : "http://w3id.org/dcri-ont/special/is_material_002",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType" : [ {
-    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00158"
+    "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00278"
   } ],
   "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension" : [ {
     "@id" : "http://w3id.org/dcri-ont/special/d_concentration_material_002"
@@ -7793,46 +8311,6 @@
   }, {
     "@language" : "el",
     "@value" : "klucel G σε ισοπροπανόλη 0.1"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/special/qv_00001",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "aceton soluble"
-  }, {
-    "@language" : "el",
-    "@value" : "διαλυτό σε ακετόνη"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "aceton soluble"
-  }, {
-    "@language" : "el",
-    "@value" : "διαλυτό σε ακετόνη"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/special/qv_00002",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "water soluble"
-  }, {
-    "@language" : "el",
-    "@value" : "διαλυτό σε νερό"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "water soluble"
-  }, {
-    "@language" : "el",
-    "@value" : "διαλυτό σε νερό"
   } ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/special/qv_00003",
@@ -8495,66 +8973,6 @@
     "@value" : "τοπική έκταση επιφάνειας"
   } ]
 }, {
-  "@id" : "http://w3id.org/dcri-ont/special/qv_00058",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "polymerism high degree"
-  }, {
-    "@language" : "el",
-    "@value" : "υψηλός βαθμός πολυμερισμού"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "polymerism high degree"
-  }, {
-    "@language" : "el",
-    "@value" : "υψηλός βαθμός πολυμερισμού"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/special/qv_00059",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "polymerism medium degree"
-  }, {
-    "@language" : "el",
-    "@value" : "μέτριος βαθμός πολυμερισμού"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "polymerism medium degree"
-  }, {
-    "@language" : "el",
-    "@value" : "μέτριος βαθμός πολυμερισμού"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/special/qv_00060",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "polymerism low degree"
-  }, {
-    "@language" : "el",
-    "@value" : "χαμηλός βαθμός πολυμερισμού"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "polymerism low degree"
-  }, {
-    "@language" : "el",
-    "@value" : "χαμηλός βαθμός πολυμερισμού"
-  } ]
-}, {
   "@id" : "http://w3id.org/dcri-ont/special/qv_00061",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -8710,12 +9128,6 @@
   } ]
 }, {
   "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00039",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type"
-  } ]
-}, {
-  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00040",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type"
@@ -9315,12 +9727,6 @@
     "@id" : "http://w3id.org/dcri-ont/PhysicalFeatureType"
   } ]
 }, {
-  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00204",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type"
-  } ]
-}, {
   "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00205",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -9669,6 +10075,102 @@
     "@id" : "http://w3id.org/dcri-ont/ActorType"
   } ]
 }, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00268",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/PhysicalFeatureType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00269",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/PhysicalFeatureType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00270",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/PhysicalFeatureType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00271",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/PhysicalFeatureType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00272",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/ActorType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00273",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/DocumentType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00274",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/DocumentType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00275",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/DocumentType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00276",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/DocumentType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00277",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/DocumentType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00278",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E57_Material"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00279",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/ConditionStateType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00280",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/ConditionStateType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00281",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/ConditionStateType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00283",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/ConditionStateType"
+  } ]
+}, {
+  "@id" : "http://w3id.org/dcri-ont/vocabulary/concept_00284",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/dcri-ont/ConditionStateType"
+  } ]
+}, {
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
@@ -9679,6 +10181,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E35_Title",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
@@ -9693,11 +10201,17 @@
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/P102_has_title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
@@ -9707,6 +10221,9 @@
 }, {
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/P45_consists_of",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/P70_documents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]

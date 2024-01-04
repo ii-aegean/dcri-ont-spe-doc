@@ -45,12 +45,20 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> rdf:type owl:AnnotationProperty .
 
 
+###  http://w3id.org/dcri-ont/hasDocumentType
+<http://w3id.org/dcri-ont/hasDocumentType> rdf:type owl:AnnotationProperty .
+
+
 ###  http://w3id.org/dcri-ont/hasPlanType
 <http://w3id.org/dcri-ont/hasPlanType> rdf:type owl:AnnotationProperty .
 
 
 ###  http://w3id.org/dcri-ont/hasPriorityIndex
 <http://w3id.org/dcri-ont/hasPriorityIndex> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/dcri-ont/isCommercialAppellationOf
+<http://w3id.org/dcri-ont/isCommercialAppellationOf> rdf:type owl:AnnotationProperty .
 
 
 ###  http://w3id.org/dcri-ont/isCriterionOf
@@ -73,8 +81,20 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 <http://w3id.org/dcri-ont/requiresPresenceOf> rdf:type owl:AnnotationProperty .
 
 
+###  http://www.cidoc-crm.org/cidoc-crm/P102_has_title
+<http://www.cidoc-crm.org/cidoc-crm/P102_has_title> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/P3_has_note
+<http://www.cidoc-crm.org/cidoc-crm/P3_has_note> rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of
 <http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/P70_documents
+<http://www.cidoc-crm.org/cidoc-crm/P70_documents> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#prefLabel
@@ -199,17 +219,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                      "έχει ποιοτική τιμή οπτικής σταθερότητας"@el .
 
 
-###  http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue
-:hasPerformanceSpaceQualitativeValue rdf:type owl:ObjectProperty ;
-                                     rdfs:subPropertyOf <http://w3id.org/dcri-ont/hasQualitativeValue> ;
-                                     owl:inverseOf :isPerformanceSpaceQualitativeValueOf ;
-                                     rdfs:range :PerformanceSpaceQualitativeValue ;
-                                     rdfs:label "has performance space qualitative value"@en ,
-                                                "έχει ποιοτική τιμή χώρου εκτέλεσης"@el ;
-                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "has performance space qualitative value"@en ,
-                                                                                     "έχει ποιοτική τιμή χώρου εκτέλεσης"@el .
-
-
 ###  http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue
 :hasPerformanceSpeedQualitativeValue rdf:type owl:ObjectProperty ;
                                      rdfs:subPropertyOf <http://w3id.org/dcri-ont/hasQualitativeValue> ;
@@ -262,17 +271,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                     "έχει ποιοτική τιμή μεγέθους"@el ;
                          <http://www.w3.org/2004/02/skos/core#prefLabel> "has size qualitative value"@en ,
                                                                          "έχει ποιοτική τιμή μεγέθους"@el .
-
-
-###  http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue
-:hasSolubilityInSolventQualitativeValue rdf:type owl:ObjectProperty ;
-                                        rdfs:subPropertyOf <http://w3id.org/dcri-ont/hasQualitativeValue> ;
-                                        owl:inverseOf :isSolubilityInSolventQualitativeValueOf ;
-                                        rdfs:range :SolubilityInSolventQualitativeValue ;
-                                        rdfs:label "has solubility in solvent qualitative value"@en ,
-                                                   "έχει ποιοτική τιμή διαλυτότητας σε διαλύτη"@el ;
-                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "has solubility in solvent qualitative value"@en ,
-                                                                                        "έχει ποιοτική τιμή διαλυτότητας σε διαλύτη"@el .
 
 
 ###  http://w3id.org/dcri-ont/special/isAdhesionStrengthQualitativeValueOf
@@ -335,16 +333,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                       "είναι ποιοτική τιμή οπτικής σταθερότητας"@el .
 
 
-###  http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf
-:isPerformanceSpaceQualitativeValueOf rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf <http://w3id.org/dcri-ont/isQualitativeValueOf> ;
-                                      rdfs:domain :PerformanceSpaceQualitativeValue ;
-                                      rdfs:label "is performance space qualitative value of"@en ,
-                                                 "είναι ποιοτική τιμή χώρου εκτέλεσης"@el ;
-                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "is performance space qualitative value of"@en ,
-                                                                                      "είναι ποιοτική τιμή χώρου εκτέλεσης"@el .
-
-
 ###  http://w3id.org/dcri-ont/special/isPerformanceSpeedQualitativeValueOf
 :isPerformanceSpeedQualitativeValueOf rdf:type owl:ObjectProperty ;
                                       rdfs:subPropertyOf <http://w3id.org/dcri-ont/isQualitativeValueOf> ;
@@ -393,16 +381,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                      "είναι ποιοτική τιμή μεγέθους"@el ;
                           <http://www.w3.org/2004/02/skos/core#prefLabel> "is size qualitative value of"@en ,
                                                                           "είναι ποιοτική τιμή μεγέθους"@el .
-
-
-###  http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf
-:isSolubilityInSolventQualitativeValueOf rdf:type owl:ObjectProperty ;
-                                         rdfs:subPropertyOf <http://w3id.org/dcri-ont/isQualitativeValueOf> ;
-                                         rdfs:domain :SolubilityInSolventQualitativeValue ;
-                                         rdfs:label "is solubility in solvent qualitative value of"@en ,
-                                                    "είναι ποιοτική τιμή διαλυτότητας σε διαλύτη"@el ;
-                                         <http://www.w3.org/2004/02/skos/core#prefLabel> "is solubility in solvent qualitative value of"@en ,
-                                                                                         "είναι ποιοτική τιμή διαλυτότητας σε διαλύτη"@el .
 
 
 ###  http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by
@@ -472,6 +450,42 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                             <http://www.w3.org/2004/02/skos/core#prefLabel> "has height quantitative value"@en .
 
 
+###  http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue
+:hasMaximumRelativeHumidityQuantitativeValue rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf :hasRelativeHumidityQuantitativeValue ;
+                                             rdfs:label "has maximum relative humidity quantitative value"@en ,
+                                                        "έχει μέγιστη ποσοτική τιμή σχετικής υγρασίας"@el ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "has maximum relative humidity quantitative value"@en ,
+                                                                                             "έχει μέγιστη ποσοτική τιμή σχετικής υγρασίας"@el .
+
+
+###  http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue
+:hasMaximumTemperatureQuantitativeValue rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf :hasTemperatureQuantitativeValue ;
+                                        rdfs:label "has maximum temperature quantitative value"@en ,
+                                                   "έχει μέγιστη ποσοτική τιμή θερμοκρασίας"@el ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "has maximum temperature quantitative value"@en ,
+                                                                                        "έχει μέγιστη ποσοτική τιμή θερμοκρασίας"@el .
+
+
+###  http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue
+:hasMinimumRelativeHumidityQuantitativeValue rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf :hasRelativeHumidityQuantitativeValue ;
+                                             rdfs:label "has minimum relative humidity quantitative value"@en ,
+                                                        "έχει ελάχιστη ποσοτική τιμή σχετικής υγρασίας"@el ;
+                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "has minimum relative humidity quantitative value"@en ,
+                                                                                             "έχει ελάχιστη ποσοτική τιμή σχετικής υγρασίας"@el .
+
+
+###  http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue
+:hasMinimumTemperatureQuantitativeValue rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf :hasTemperatureQuantitativeValue ;
+                                        rdfs:label "has minimun temperature quantitative value"@en ,
+                                                   "έχει ελάχιστη ποσοτική τιμή θερμοκρασίας"@el ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "has minimun temperature quantitative value"@en ,
+                                                                                        "έχει ελάχιστη ποσοτική τιμή θερμοκρασίας"@el .
+
+
 ###  http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue
 :hasRelativeHumidityQuantitativeValue rdf:type owl:DatatypeProperty ;
                                       rdfs:subPropertyOf <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> ;
@@ -537,6 +551,14 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 <http://w3id.org/dcri-ont/ActorType> rdf:type owl:Class .
 
 
+###  http://w3id.org/dcri-ont/CommercialAppellation
+<http://w3id.org/dcri-ont/CommercialAppellation> rdf:type owl:Class .
+
+
+###  http://w3id.org/dcri-ont/ConditionStateType
+<http://w3id.org/dcri-ont/ConditionStateType> rdf:type owl:Class .
+
+
 ###  http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-making
 <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-making> rdf:type owl:Class .
 
@@ -595,6 +617,10 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 
 ###  http://w3id.org/dcri-ont/ConservationObjectType
 <http://w3id.org/dcri-ont/ConservationObjectType> rdf:type owl:Class .
+
+
+###  http://w3id.org/dcri-ont/DocumentType
+<http://w3id.org/dcri-ont/DocumentType> rdf:type owl:Class .
 
 
 ###  http://w3id.org/dcri-ont/EquipmentType
@@ -770,23 +796,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                   "Ποιοτική Τιμή Οπτικής Σταθερότητας"@el .
 
 
-###  http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue
-:PerformanceSpaceQualitativeValue rdf:type owl:Class ;
-                                  owl:equivalentClass [ owl:intersectionOf ( <http://w3id.org/dcri-ont/QualitativeValue>
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <http://w3id.org/dcri-ont/refersToPropertyType> ;
-                                                                               owl:hasValue <http://w3id.org/dcri-ont/vocabulary/concept_00040>
-                                                                             ]
-                                                                           ) ;
-                                                        rdf:type owl:Class
-                                                      ] ;
-                                  rdfs:subClassOf <http://w3id.org/dcri-ont/QualitativeValue> ;
-                                  rdfs:label "Performance Space Qualitative Value"@en ,
-                                             "Ποιοτική Τιμή Χώρου Εκτέλεσης"@el ;
-                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Performance Space Qualitative Value"@en ,
-                                                                                  "Ποιοτική Τιμή Χώρου Εκτέλεσης"@el .
-
-
 ###  http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue
 :PerformanceSpeedQualitativeValue rdf:type owl:Class ;
                                   owl:equivalentClass [ owl:intersectionOf ( <http://w3id.org/dcri-ont/QualitativeValue>
@@ -835,29 +844,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                   "Ποιοτική Τιμή Έκτασης Φυσικού Χαρακτηριστικού"@el ;
                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Physical Feature Extent Qualitative Value"@en ,
                                                                                        "Ποιοτική Τιμή Έκτασης Φυσικού Χαρακτηριστικού"@el .
-
-
-###  http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue
-:PolymerismDegreeQualitativeValue rdf:type owl:Class ;
-                                  owl:equivalentClass [ owl:intersectionOf ( <http://w3id.org/dcri-ont/QualitativeValue>
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <http://w3id.org/dcri-ont/refersToPropertyType> ;
-                                                                               owl:hasValue <http://w3id.org/dcri-ont/vocabulary/concept_00204>
-                                                                             ]
-                                                                           ) ;
-                                                        rdf:type owl:Class
-                                                      ] ,
-                                                      [ rdf:type owl:Class ;
-                                                        owl:oneOf ( :qv_00058
-                                                                    :qv_00059
-                                                                    :qv_00060
-                                                                  )
-                                                      ] ;
-                                  rdfs:subClassOf <http://w3id.org/dcri-ont/QualitativeValue> ;
-                                  rdfs:label "Polymerism degree qualitative value"@en ,
-                                             "Ποιοτική τιμή βαθμού πολυμερισμού"@el ;
-                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Polymerism degree qualitative value"@en ,
-                                                                                  "Ποιοτική τιμή βαθμού πολυμερισμού"@el .
 
 
 ###  http://w3id.org/dcri-ont/special/PortabilityQualitativeValue
@@ -937,38 +923,20 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                       "Ποιοτική Τιμή Μεγέθους"@el .
 
 
-###  http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue
-:SolubilityInSolventQualitativeValue rdf:type owl:Class ;
-                                     owl:equivalentClass [ owl:intersectionOf ( <http://w3id.org/dcri-ont/QualitativeValue>
-                                                                                [ rdf:type owl:Restriction ;
-                                                                                  owl:onProperty <http://w3id.org/dcri-ont/refersToPropertyType> ;
-                                                                                  owl:hasValue <http://w3id.org/dcri-ont/vocabulary/concept_00046>
-                                                                                ]
-                                                                              ) ;
-                                                           rdf:type owl:Class
-                                                         ] ,
-                                                         [ rdf:type owl:Class ;
-                                                           owl:oneOf ( :qv_00001
-                                                                       :qv_00002
-                                                                     )
-                                                         ] ;
-                                     rdfs:subClassOf <http://w3id.org/dcri-ont/QualitativeValue> ,
-                                                     [ rdf:type owl:Restriction ;
-                                                       owl:onProperty :isSolubilityInSolventQualitativeValueOf ;
-                                                       owl:allValuesFrom <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity>
-                                                     ] ;
-                                     rdfs:label "Solubility in Solvent Qualitative Value"@en ,
-                                                "Ποιοτική Τιμή Διαλυτότητας σε Διαλύτη"@el ;
-                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Solubility in Solvent Qualitative Value"@en ,
-                                                                                     "Ποιοτική Τιμή Διαλυτότητας σε Διαλύτη"@el .
-
-
 ###  http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object
 <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> rdf:type owl:Class .
 
 
 ###  http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature
 <http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature> rdf:type owl:Class .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/E31_Document
+<http://www.cidoc-crm.org/cidoc-crm/E31_Document> rdf:type owl:Class .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/E35_Title
+<http://www.cidoc-crm.org/cidoc-crm/E35_Title> rdf:type owl:Class .
 
 
 ###  http://www.cidoc-crm.org/cidoc-crm/E54_Dimension
@@ -998,6 +966,22 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 #################################################################
 #    Individuals
 #################################################################
+
+###  http://w3id.org/dcri-ont/special/ca_klucel-g
+:ca_klucel-g rdf:type owl:NamedIndividual ,
+                      <http://w3id.org/dcri-ont/CommercialAppellation> ;
+             <http://w3id.org/dcri-ont/isCommercialAppellationOf> <http://w3id.org/dcri-ont/vocabulary/concept_00254> ;
+             rdfs:label "Klucel G"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Klucel G"@en .
+
+
+###  http://w3id.org/dcri-ont/special/ca_paraloid-b72
+:ca_paraloid-b72 rdf:type owl:NamedIndividual ,
+                          <http://w3id.org/dcri-ont/CommercialAppellation> ;
+                 <http://w3id.org/dcri-ont/isCommercialAppellationOf> <http://w3id.org/dcri-ont/vocabulary/concept_00169> ;
+                 rdfs:label "Paraloid B72"@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Paraloid B72"@en .
+
 
 ###  http://w3id.org/dcri-ont/special/d_concentration_material_001
 :d_concentration_material_001 rdf:type owl:NamedIndividual ,
@@ -1147,16 +1131,17 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 :dmo_cleaning_superficial_deposit_001 rdf:type owl:NamedIndividual ,
                                                <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> ;
                                       <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_002 ,
-                                                                                :dmr_cleaning_superficial_deposit_005 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
+                                                                                :dmr_cleaning_superficial_deposit_010 ,
+                                                                                :dmr_cleaning_superficial_deposit_011 ,
+                                                                                :dmr_cleaning_superficial_deposit_013 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_032 ,
                                                                                 :dmr_cleaning_superficial_deposit_040 ,
-                                                                                :dmr_cleaning_superficial_deposit_041 ,
-                                                                                :dmr_cleaning_superficial_deposit_046 ;
+                                                                                :dmr_cleaning_superficial_deposit_041 ;
                                       <http://w3id.org/dcri-ont/involvesChoosing> :ip_cleaning_superficial_deposit_009 ;
                                       <http://w3id.org/dcri-ont/isSolutionOf> :dmi_cleaning_superficial_deposit ;
                                       rdfs:label "option of mechanical cleaning of superficial deposits with air blow gun"@en ,
@@ -1169,7 +1154,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 :dmo_cleaning_superficial_deposit_002 rdf:type owl:NamedIndividual ,
                                                <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> ;
                                       <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_002 ,
-                                                                                :dmr_cleaning_superficial_deposit_005 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
                                                                                 :dmr_cleaning_superficial_deposit_010 ,
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
@@ -1182,8 +1166,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_029 ,
                                                                                 :dmr_cleaning_superficial_deposit_032 ,
                                                                                 :dmr_cleaning_superficial_deposit_040 ,
-                                                                                :dmr_cleaning_superficial_deposit_041 ,
-                                                                                :dmr_cleaning_superficial_deposit_046 ;
+                                                                                :dmr_cleaning_superficial_deposit_041 ;
                                       <http://w3id.org/dcri-ont/involvesChoosing> :ip_cleaning_superficial_deposit_010 ;
                                       <http://w3id.org/dcri-ont/isSolutionOf> :dmi_cleaning_superficial_deposit ;
                                       rdfs:label "option of mechanical cleaning of superficial deposits with air blow gun and dusting brush"@en ,
@@ -1196,17 +1179,17 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 :dmo_cleaning_superficial_deposit_003 rdf:type owl:NamedIndividual ,
                                                <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> ;
                                       <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_002 ,
-                                                                                :dmr_cleaning_superficial_deposit_005 ,
-                                                                                :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
+                                                                                :dmr_cleaning_superficial_deposit_010 ,
+                                                                                :dmr_cleaning_superficial_deposit_011 ,
+                                                                                :dmr_cleaning_superficial_deposit_013 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_032 ,
                                                                                 :dmr_cleaning_superficial_deposit_040 ,
-                                                                                :dmr_cleaning_superficial_deposit_041 ,
-                                                                                :dmr_cleaning_superficial_deposit_046 ;
+                                                                                :dmr_cleaning_superficial_deposit_041 ;
                                       <http://w3id.org/dcri-ont/involvesChoosing> :ip_cleaning_superficial_deposit_003 ;
                                       <http://w3id.org/dcri-ont/isSolutionOf> :dmi_cleaning_superficial_deposit ;
                                       rdfs:label "option of mechanical cleaning of superficial deposits with battery air blower"@en ,
@@ -1219,11 +1202,10 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 :dmo_cleaning_superficial_deposit_004 rdf:type owl:NamedIndividual ,
                                                <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> ;
                                       <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_002 ,
-                                                                                :dmr_cleaning_superficial_deposit_005 ,
-                                                                                :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
+                                                                                :dmr_cleaning_superficial_deposit_010 ,
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
-                                                                                :dmr_cleaning_superficial_deposit_012 ,
+                                                                                :dmr_cleaning_superficial_deposit_013 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
@@ -1231,8 +1213,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_029 ,
                                                                                 :dmr_cleaning_superficial_deposit_032 ,
                                                                                 :dmr_cleaning_superficial_deposit_040 ,
-                                                                                :dmr_cleaning_superficial_deposit_041 ,
-                                                                                :dmr_cleaning_superficial_deposit_046 ;
+                                                                                :dmr_cleaning_superficial_deposit_041 ;
                                       <http://w3id.org/dcri-ont/involvesChoosing> :ip_cleaning_superficial_deposit_004 ;
                                       <http://w3id.org/dcri-ont/isSolutionOf> :dmi_cleaning_superficial_deposit ;
                                       rdfs:label "option of mechanical cleaning of superficial deposits with battery air blower and dusting brush"@en ,
@@ -1245,16 +1226,17 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 :dmo_cleaning_superficial_deposit_005 rdf:type owl:NamedIndividual ,
                                                <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> ;
                                       <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_002 ,
-                                                                                :dmr_cleaning_superficial_deposit_005 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
+                                                                                :dmr_cleaning_superficial_deposit_010 ,
+                                                                                :dmr_cleaning_superficial_deposit_011 ,
+                                                                                :dmr_cleaning_superficial_deposit_013 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_032 ,
                                                                                 :dmr_cleaning_superficial_deposit_040 ,
-                                                                                :dmr_cleaning_superficial_deposit_041 ,
-                                                                                :dmr_cleaning_superficial_deposit_046 ;
+                                                                                :dmr_cleaning_superficial_deposit_041 ;
                                       <http://w3id.org/dcri-ont/involvesChoosing> :ip_cleaning_superficial_deposit_005 ;
                                       <http://w3id.org/dcri-ont/isSolutionOf> :dmi_cleaning_superficial_deposit ;
                                       rdfs:label "option of mechanical cleaning of superficial deposits with battery vacuum cleaner"@en ,
@@ -1267,7 +1249,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 :dmo_cleaning_superficial_deposit_006 rdf:type owl:NamedIndividual ,
                                                <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> ;
                                       <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_002 ,
-                                                                                :dmr_cleaning_superficial_deposit_005 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
                                                                                 :dmr_cleaning_superficial_deposit_010 ,
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
@@ -1280,8 +1261,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_029 ,
                                                                                 :dmr_cleaning_superficial_deposit_032 ,
                                                                                 :dmr_cleaning_superficial_deposit_040 ,
-                                                                                :dmr_cleaning_superficial_deposit_041 ,
-                                                                                :dmr_cleaning_superficial_deposit_046 ;
+                                                                                :dmr_cleaning_superficial_deposit_041 ;
                                       <http://w3id.org/dcri-ont/involvesChoosing> :ip_cleaning_superficial_deposit_006 ;
                                       <http://w3id.org/dcri-ont/isSolutionOf> :dmi_cleaning_superficial_deposit ;
                                       rdfs:label "option of mechanical cleaning of superficial deposits with battery vacuum cleaner and dusting brush"@en ,
@@ -1324,7 +1304,8 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 ###  http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_009
 :dmo_cleaning_superficial_deposit_009 rdf:type owl:NamedIndividual ,
                                                <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> ;
-                                      <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_002 ,
+                                      <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_001 ,
+                                                                                :dmr_cleaning_superficial_deposit_002 ,
                                                                                 :dmr_cleaning_superficial_deposit_003 ,
                                                                                 :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
@@ -1348,7 +1329,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
                                                                                 :dmr_cleaning_superficial_deposit_012 ,
                                                                                 :dmr_cleaning_superficial_deposit_013 ,
-                                                                                :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_029 ,
                                                                                 :dmr_cleaning_superficial_deposit_032 ;
@@ -1632,7 +1612,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_005 ,
                                                                                 :dmr_cleaning_superficial_deposit_008 ,
                                                                                 :dmr_cleaning_superficial_deposit_009 ,
-                                                                                :dmr_cleaning_superficial_deposit_012 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_019 ,
                                                                                 :dmr_cleaning_superficial_deposit_020 ,
@@ -1666,7 +1645,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_011 ,
                                                                                 :dmr_cleaning_superficial_deposit_012 ,
                                                                                 :dmr_cleaning_superficial_deposit_013 ,
-                                                                                :dmr_cleaning_superficial_deposit_016 ,
                                                                                 :dmr_cleaning_superficial_deposit_018 ,
                                                                                 :dmr_cleaning_superficial_deposit_024 ,
                                                                                 :dmr_cleaning_superficial_deposit_025 ,
@@ -1827,7 +1805,8 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                                                 :dmr_cleaning_superficial_deposit_029 ,
                                                                                 :dmr_cleaning_superficial_deposit_030 ,
                                                                                 :dmr_cleaning_superficial_deposit_031 ,
-                                                                                :dmr_cleaning_superficial_deposit_033 ;
+                                                                                :dmr_cleaning_superficial_deposit_033 ,
+                                                                                :dmr_cleaning_superficial_deposit_043 ;
                                       <http://w3id.org/dcri-ont/involvesChoosing> :ip_cleaning_superficial_deposit_032 ;
                                       <http://w3id.org/dcri-ont/isSolutionOf> :dmi_cleaning_superficial_deposit ;
                                       rdfs:label "option of mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) and dusting brush around flaking areas"@en ,
@@ -1883,8 +1862,29 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                       <http://w3id.org/dcri-ont/involvesChoosing> :ip_cleaning_superficial_deposit_034 ;
                                       <http://w3id.org/dcri-ont/isSolutionOf> :dmi_cleaning_superficial_deposit ;
                                       rdfs:label "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung friability areas"@en ,
-                                                 "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el ;
+                                                 "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας"@el ;
                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung friability areas"@en ,
+                                                                                      "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας"@el .
+
+
+###  http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035
+:dmo_cleaning_superficial_deposit_035 rdf:type owl:NamedIndividual ,
+                                               <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> ;
+                                      <http://w3id.org/dcri-ont/hasRequirement> :dmr_cleaning_superficial_deposit_010 ,
+                                                                                :dmr_cleaning_superficial_deposit_011 ,
+                                                                                :dmr_cleaning_superficial_deposit_012 ,
+                                                                                :dmr_cleaning_superficial_deposit_013 ,
+                                                                                :dmr_cleaning_superficial_deposit_018 ,
+                                                                                :dmr_cleaning_superficial_deposit_021 ,
+                                                                                :dmr_cleaning_superficial_deposit_029 ,
+                                                                                :dmr_cleaning_superficial_deposit_030 ,
+                                                                                :dmr_cleaning_superficial_deposit_031 ,
+                                                                                :dmr_cleaning_superficial_deposit_033 ;
+                                      <http://w3id.org/dcri-ont/involvesChoosing> :ip_cleaning_superficial_deposit_035 ;
+                                      <http://w3id.org/dcri-ont/isSolutionOf> :dmi_cleaning_superficial_deposit ;
+                                      rdfs:label "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung flaking areas"@en ,
+                                                 "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el ;
+                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung flaking areas"@en ,
                                                                                       "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el .
 
 
@@ -2148,6 +2148,17 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                  "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος"@el ;
                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "requirement for conservation object about silver mirroring absence"@en ,
                                                                                       "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος"@el .
+
+
+###  http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017
+:dmr_cleaning_superficial_deposit_017 rdf:type owl:NamedIndividual ,
+                                               <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject> ;
+                                      <http://w3id.org/dcri-ont/requiresAbsenceOf> <http://w3id.org/dcri-ont/vocabulary/concept_00189> ;
+                                      <http://w3id.org/dcri-ont/isAboutCertainType> <http://w3id.org/dcri-ont/vocabulary/concept_00218> ;
+                                      rdfs:label "requirement for conservation object about emulsion absence"@en ,
+                                                 "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"@el ;
+                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "requirement for conservation object about emulsion absence"@en ,
+                                                                                      "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"@el .
 
 
 ###  http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018
@@ -2581,6 +2592,83 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                       "απαίτηση για το πλάνο σχετικά με την απουσία ολικής εφαρμογής"@el ;
                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "requirement for plan about overall application absence"@en ,
                                                                                            "απαίτηση για το πλάνο σχετικά με την απουσία ολικής εφαρμογής"@el .
+
+
+###  http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001
+:doc_consolidation_of_flaking_painting_001 rdf:type owl:NamedIndividual ,
+                                                    <http://www.cidoc-crm.org/cidoc-crm/E31_Document> ;
+                                           <http://w3id.org/dcri-ont/hasDocumentType> <http://w3id.org/dcri-ont/vocabulary/concept_00275> ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P102_has_title> :doc_title_consolidation_of_flaking_painting_001 ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "https://www.conservation-wiki.com/wiki/BPG_Consolidation,_Fixing,_and_Facing" ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P70_documents> :ip_consolidation_of_flaking_painting_001 ,
+                                                                                              :ip_consolidation_of_flaking_painting_003 ,
+                                                                                              :ip_consolidation_of_flaking_painting_006 ;
+                                           rdfs:label "AIC wiki, BPG Consolidation-Fixing-Facing"@en ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "AIC wiki, BPG Consolidation-Fixing-Facing"@en .
+
+
+###  http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002
+:doc_consolidation_of_flaking_painting_002 rdf:type owl:NamedIndividual ,
+                                                    <http://www.cidoc-crm.org/cidoc-crm/E31_Document> ;
+                                           <http://w3id.org/dcri-ont/hasDocumentType> <http://w3id.org/dcri-ont/vocabulary/concept_00274> ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P102_has_title> :doc_title_consolidation_of_flaking_painting_002 ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.dcr.fct.unl.pt/sites/www.dcr.fct.unl.pt/files/borges_2018.pdf" ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P70_documents> :ip_consolidation_of_flaking_painting_001 ;
+                                           rdfs:label "Elsevier, Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"@en ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Elsevier, Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"@en .
+
+
+###  http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003
+:doc_consolidation_of_flaking_painting_003 rdf:type owl:NamedIndividual ,
+                                                    <http://www.cidoc-crm.org/cidoc-crm/E31_Document> ;
+                                           <http://w3id.org/dcri-ont/hasDocumentType> <http://w3id.org/dcri-ont/vocabulary/concept_00274> ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P102_has_title> :doc_title_consolidation_of_flaking_painting_003 ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "https://www.tandfonline.com/doi/abs/10.1080/03094227.1998.9638607" ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P70_documents> :ip_consolidation_of_flaking_painting_003 ,
+                                                                                              :ip_consolidation_of_flaking_painting_005 ,
+                                                                                              :ip_consolidation_of_flaking_painting_006 ;
+                                           rdfs:label "The paper conservator, The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"@en ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "The paper conservator, The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"@en .
+
+
+###  http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004
+:doc_consolidation_of_flaking_painting_004 rdf:type owl:NamedIndividual ,
+                                                    <http://www.cidoc-crm.org/cidoc-crm/E31_Document> ;
+                                           <http://w3id.org/dcri-ont/hasDocumentType> <http://w3id.org/dcri-ont/vocabulary/concept_00275> ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P102_has_title> :doc_title_consolidation_of_flaking_painting_004 ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v14/bp14-03.html" ;
+                                           <http://www.cidoc-crm.org/cidoc-crm/P70_documents> :ip_consolidation_of_flaking_painting_002 ,
+                                                                                              :ip_consolidation_of_flaking_painting_004 ;
+                                           rdfs:label "AIC, BPG Annual, The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"@en ;
+                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "AIC, BPG Annual, The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"@en .
+
+
+###  http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001
+:doc_title_consolidation_of_flaking_painting_001 rdf:type owl:NamedIndividual ,
+                                                          <http://www.cidoc-crm.org/cidoc-crm/E35_Title> ;
+                                                 rdfs:label "BPG Consolidation, Fixing, and Facing"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "BPG Consolidation, Fixing, and Facing"@en .
+
+
+###  http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002
+:doc_title_consolidation_of_flaking_painting_002 rdf:type owl:NamedIndividual ,
+                                                          <http://www.cidoc-crm.org/cidoc-crm/E35_Title> ;
+                                                 rdfs:label "Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"@en .
+
+
+###  http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003
+:doc_title_consolidation_of_flaking_painting_003 rdf:type owl:NamedIndividual ,
+                                                          <http://www.cidoc-crm.org/cidoc-crm/E35_Title> ;
+                                                 rdfs:label "The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"@en .
+
+
+###  http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004
+:doc_title_consolidation_of_flaking_painting_004 rdf:type owl:NamedIndividual ,
+                                                          <http://www.cidoc-crm.org/cidoc-crm/E35_Title> ;
+                                                 rdfs:label "The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"@en .
 
 
 ###  http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_001
@@ -3025,8 +3113,23 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                      :hasPerformanceSpeedQualitativeValue :qv_00032 ;
                                      <http://w3id.org/dcri-ont/hasPlanType> <http://w3id.org/dcri-ont/vocabulary/concept_00021> ;
                                      rdfs:label "mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas"@en ,
-                                                "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el ;
+                                                "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας"@el ;
                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas"@en ,
+                                                                                     "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευρθρυπτότητας"@el .
+
+
+###  http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035
+:ip_cleaning_superficial_deposit_035 rdf:type owl:NamedIndividual ,
+                                              <http://w3id.org/dcri-ont/RemedialConservationAndRestorationInterventionPlan> ;
+                                     <http://w3id.org/dcri-ont/specifiesConservationAndRestorationInterventionSupply> :is_equipment_001 ,
+                                                                                                                      :is_equipment_006 ;
+                                     :hasApplicationDistanceQualitativeValue :qv_00011 ;
+                                     :hasApplicationExtentQualitativeValue :qv_00012 ;
+                                     :hasPerformanceSpeedQualitativeValue :qv_00032 ;
+                                     <http://w3id.org/dcri-ont/hasPlanType> <http://w3id.org/dcri-ont/vocabulary/concept_00021> ;
+                                     rdfs:label "mechanical cleaning of superficial deposits with dust bulb and dusting brush around flaking areas"@en ,
+                                                "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el ;
+                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "mechanical cleaning of superficial deposits with dust bulb and dusting brush around flaking areas"@en ,
                                                                                      "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el .
 
 
@@ -3331,7 +3434,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 ###  http://w3id.org/dcri-ont/special/is_material_001
 :is_material_001 rdf:type owl:NamedIndividual ,
                           <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply> ;
-                 <http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType> <http://w3id.org/dcri-ont/vocabulary/concept_00158> ;
+                 <http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType> <http://w3id.org/dcri-ont/vocabulary/concept_00278> ;
                  <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> :d_concentration_material_001 ;
                  <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> <http://w3id.org/dcri-ont/vocabulary/concept_00062> ,
                                                                       <http://w3id.org/dcri-ont/vocabulary/concept_00064> ;
@@ -3344,7 +3447,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 ###  http://w3id.org/dcri-ont/special/is_material_002
 :is_material_002 rdf:type owl:NamedIndividual ,
                           <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply> ;
-                 <http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType> <http://w3id.org/dcri-ont/vocabulary/concept_00158> ;
+                 <http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType> <http://w3id.org/dcri-ont/vocabulary/concept_00278> ;
                  <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> :d_concentration_material_002 ;
                  <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> <http://w3id.org/dcri-ont/vocabulary/concept_00062> ,
                                                                       <http://w3id.org/dcri-ont/vocabulary/concept_00063> ;
@@ -3442,24 +3545,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                             "klucel G σε ισοπροπανόλη 0.1"@el ;
                  <http://www.w3.org/2004/02/skos/core#prefLabel> "klucel G in propan-2-ol at 0.1"@en ,
                                                                  "klucel G σε ισοπροπανόλη 0.1"@el .
-
-
-###  http://w3id.org/dcri-ont/special/qv_00001
-:qv_00001 rdf:type owl:NamedIndividual ,
-                   :SolubilityInSolventQualitativeValue ;
-          rdfs:label "aceton soluble"@en ,
-                     "διαλυτό σε ακετόνη"@el ;
-          <http://www.w3.org/2004/02/skos/core#prefLabel> "aceton soluble"@en ,
-                                                          "διαλυτό σε ακετόνη"@el .
-
-
-###  http://w3id.org/dcri-ont/special/qv_00002
-:qv_00002 rdf:type owl:NamedIndividual ,
-                   :SolubilityInSolventQualitativeValue ;
-          rdfs:label "water soluble"@en ,
-                     "διαλυτό σε νερό"@el ;
-          <http://www.w3.org/2004/02/skos/core#prefLabel> "water soluble"@en ,
-                                                          "διαλυτό σε νερό"@el .
 
 
 ###  http://w3id.org/dcri-ont/special/qv_00003
@@ -3747,33 +3832,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                           "τοπική έκταση επιφάνειας"@el .
 
 
-###  http://w3id.org/dcri-ont/special/qv_00058
-:qv_00058 rdf:type owl:NamedIndividual ,
-                   :PolymerismDegreeQualitativeValue ;
-          rdfs:label "polymerism high degree"@en ,
-                     "υψηλός βαθμός πολυμερισμού"@el ;
-          <http://www.w3.org/2004/02/skos/core#prefLabel> "polymerism high degree"@en ,
-                                                          "υψηλός βαθμός πολυμερισμού"@el .
-
-
-###  http://w3id.org/dcri-ont/special/qv_00059
-:qv_00059 rdf:type owl:NamedIndividual ,
-                   :PolymerismDegreeQualitativeValue ;
-          rdfs:label "polymerism medium degree"@en ,
-                     "μέτριος βαθμός πολυμερισμού"@el ;
-          <http://www.w3.org/2004/02/skos/core#prefLabel> "polymerism medium degree"@en ,
-                                                          "μέτριος βαθμός πολυμερισμού"@el .
-
-
-###  http://w3id.org/dcri-ont/special/qv_00060
-:qv_00060 rdf:type owl:NamedIndividual ,
-                   :PolymerismDegreeQualitativeValue ;
-          rdfs:label "polymerism low degree"@en ,
-                     "χαμηλός βαθμός πολυμερισμού"@el ;
-          <http://www.w3.org/2004/02/skos/core#prefLabel> "polymerism low degree"@en ,
-                                                          "χαμηλός βαθμός πολυμερισμού"@el .
-
-
 ###  http://w3id.org/dcri-ont/special/qv_00061
 :qv_00061 rdf:type owl:NamedIndividual ,
                    :SizeQualitativeValue ;
@@ -3884,11 +3942,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 
 ###  http://w3id.org/dcri-ont/vocabulary/concept_00039
 <http://w3id.org/dcri-ont/vocabulary/concept_00039> rdf:type owl:NamedIndividual ,
-                                                             <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type> .
-
-
-###  http://w3id.org/dcri-ont/vocabulary/concept_00040
-<http://w3id.org/dcri-ont/vocabulary/concept_00040> rdf:type owl:NamedIndividual ,
                                                              <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type> .
 
 
@@ -4387,11 +4440,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
                                                              <http://w3id.org/dcri-ont/PhysicalFeatureType> .
 
 
-###  http://w3id.org/dcri-ont/vocabulary/concept_00204
-<http://w3id.org/dcri-ont/vocabulary/concept_00204> rdf:type owl:NamedIndividual ,
-                                                             <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type> .
-
-
 ###  http://w3id.org/dcri-ont/vocabulary/concept_00205
 <http://w3id.org/dcri-ont/vocabulary/concept_00205> rdf:type owl:NamedIndividual ,
                                                              <http://www.cidoc-crm.org/cidoc-crm/E57_Material> .
@@ -4680,6 +4728,356 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 ###  http://w3id.org/dcri-ont/vocabulary/concept_00263
 <http://w3id.org/dcri-ont/vocabulary/concept_00263> rdf:type owl:NamedIndividual ,
                                                              <http://w3id.org/dcri-ont/ActorType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00268
+<http://w3id.org/dcri-ont/vocabulary/concept_00268> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/PhysicalFeatureType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00269
+<http://w3id.org/dcri-ont/vocabulary/concept_00269> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/PhysicalFeatureType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00270
+<http://w3id.org/dcri-ont/vocabulary/concept_00270> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/PhysicalFeatureType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00271
+<http://w3id.org/dcri-ont/vocabulary/concept_00271> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/PhysicalFeatureType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00272
+<http://w3id.org/dcri-ont/vocabulary/concept_00272> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/ActorType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00273
+<http://w3id.org/dcri-ont/vocabulary/concept_00273> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/DocumentType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00274
+<http://w3id.org/dcri-ont/vocabulary/concept_00274> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/DocumentType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00275
+<http://w3id.org/dcri-ont/vocabulary/concept_00275> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/DocumentType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00276
+<http://w3id.org/dcri-ont/vocabulary/concept_00276> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/DocumentType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00277
+<http://w3id.org/dcri-ont/vocabulary/concept_00277> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/DocumentType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00278
+<http://w3id.org/dcri-ont/vocabulary/concept_00278> rdf:type owl:NamedIndividual ,
+                                                             <http://www.cidoc-crm.org/cidoc-crm/E57_Material> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00279
+<http://w3id.org/dcri-ont/vocabulary/concept_00279> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/ConditionStateType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00280
+<http://w3id.org/dcri-ont/vocabulary/concept_00280> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/ConditionStateType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00281
+<http://w3id.org/dcri-ont/vocabulary/concept_00281> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/ConditionStateType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00283
+<http://w3id.org/dcri-ont/vocabulary/concept_00283> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/ConditionStateType> .
+
+
+###  http://w3id.org/dcri-ont/vocabulary/concept_00284
+<http://w3id.org/dcri-ont/vocabulary/concept_00284> rdf:type owl:NamedIndividual ,
+                                                             <http://w3id.org/dcri-ont/ConditionStateType> .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00003
+                        :qv_00004
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00005
+                        :qv_00006
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00005
+                        :qv_00007
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00005
+                        :qv_00008
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00005
+                        :qv_00009
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00006
+                        :qv_00007
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00006
+                        :qv_00008
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00006
+                        :qv_00009
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00007
+                        :qv_00008
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00007
+                        :qv_00009
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00008
+                        :qv_00009
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00010
+                        :qv_00011
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00012
+                        :qv_00013
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00025
+                        :qv_00026
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00025
+                        :qv_00052
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00026
+                        :qv_00052
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00029
+                        :qv_00030
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00029
+                        :qv_00031
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00029
+                        :qv_00032
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00030
+                        :qv_00031
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00030
+                        :qv_00032
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00031
+                        :qv_00032
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00033
+                        :qv_00034
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00035
+                        :qv_00036
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00049
+                        :qv_00050
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00049
+                        :qv_00051
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00050
+                        :qv_00051
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00053
+                        :qv_00054
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00053
+                        :qv_00055
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00053
+                        :qv_00061
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00053
+                        :qv_00062
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00054
+                        :qv_00055
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00054
+                        :qv_00061
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00054
+                        :qv_00062
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00055
+                        :qv_00061
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00055
+                        :qv_00062
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00056
+                        :qv_00057
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :qv_00061
+                        :qv_00062
+                      )
+] .
 
 
 #################################################################

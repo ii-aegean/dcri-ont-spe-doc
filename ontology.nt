@@ -29,11 +29,17 @@
 # http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://w3id.org/dcri-ont/hasDocumentType
+<http://w3id.org/dcri-ont/hasDocumentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://w3id.org/dcri-ont/hasPlanType
 <http://w3id.org/dcri-ont/hasPlanType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://w3id.org/dcri-ont/hasPriorityIndex
 <http://w3id.org/dcri-ont/hasPriorityIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://w3id.org/dcri-ont/isCommercialAppellationOf
+<http://w3id.org/dcri-ont/isCommercialAppellationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://w3id.org/dcri-ont/isCriterionOf
 <http://w3id.org/dcri-ont/isCriterionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -50,8 +56,17 @@
 # http://w3id.org/dcri-ont/requiresPresenceOf
 <http://w3id.org/dcri-ont/requiresPresenceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://www.cidoc-crm.org/cidoc-crm/P102_has_title
+<http://www.cidoc-crm.org/cidoc-crm/P102_has_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.cidoc-crm.org/cidoc-crm/P3_has_note
+<http://www.cidoc-crm.org/cidoc-crm/P3_has_note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of
 <http://www.cidoc-crm.org/cidoc-crm/P43i_is_dimension_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.cidoc-crm.org/cidoc-crm/P70_documents
+<http://www.cidoc-crm.org/cidoc-crm/P70_documents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2004/02/skos/core#prefLabel
 <http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -161,16 +176,6 @@
 <http://w3id.org/dcri-ont/special/hasOpticalStabilityQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has optical stability qualitative value"@en .
 <http://w3id.org/dcri-ont/special/hasOpticalStabilityQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "έχει ποιοτική τιμή οπτικής σταθερότητας"@el .
 # 
-# http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue
-<http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/dcri-ont/hasQualitativeValue> .
-<http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue> <http://www.w3.org/2002/07/owl#inverseOf> <http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf> .
-<http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue> .
-<http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "has performance space qualitative value"@en .
-<http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "έχει ποιοτική τιμή χώρου εκτέλεσης"@el .
-<http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has performance space qualitative value"@en .
-<http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "έχει ποιοτική τιμή χώρου εκτέλεσης"@el .
-# 
 # http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue
 <http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/dcri-ont/hasQualitativeValue> .
@@ -219,16 +224,6 @@
 <http://w3id.org/dcri-ont/special/hasSizeQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "έχει ποιοτική τιμή μεγέθους"@el .
 <http://w3id.org/dcri-ont/special/hasSizeQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has size qualitative value"@en .
 <http://w3id.org/dcri-ont/special/hasSizeQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "έχει ποιοτική τιμή μεγέθους"@el .
-# 
-# http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue
-<http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/dcri-ont/hasQualitativeValue> .
-<http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue> <http://www.w3.org/2002/07/owl#inverseOf> <http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf> .
-<http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> .
-<http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "has solubility in solvent qualitative value"@en .
-<http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "έχει ποιοτική τιμή διαλυτότητας σε διαλύτη"@el .
-<http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has solubility in solvent qualitative value"@en .
-<http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "έχει ποιοτική τιμή διαλυτότητας σε διαλύτη"@el .
 # 
 # http://w3id.org/dcri-ont/special/isAdhesionStrengthQualitativeValueOf
 <http://w3id.org/dcri-ont/special/isAdhesionStrengthQualitativeValueOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -284,15 +279,6 @@
 <http://w3id.org/dcri-ont/special/isOpticalStabilityQualitativeValueOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "is optical stability qualitative value of"@en .
 <http://w3id.org/dcri-ont/special/isOpticalStabilityQualitativeValueOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "είναι ποιοτική τιμή οπτικής σταθερότητας"@el .
 # 
-# http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf
-<http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/dcri-ont/isQualitativeValueOf> .
-<http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue> .
-<http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf> <http://www.w3.org/2000/01/rdf-schema#label> "is performance space qualitative value of"@en .
-<http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf> <http://www.w3.org/2000/01/rdf-schema#label> "είναι ποιοτική τιμή χώρου εκτέλεσης"@el .
-<http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "is performance space qualitative value of"@en .
-<http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "είναι ποιοτική τιμή χώρου εκτέλεσης"@el .
-# 
 # http://w3id.org/dcri-ont/special/isPerformanceSpeedQualitativeValueOf
 <http://w3id.org/dcri-ont/special/isPerformanceSpeedQualitativeValueOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://w3id.org/dcri-ont/special/isPerformanceSpeedQualitativeValueOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/dcri-ont/isQualitativeValueOf> .
@@ -337,15 +323,6 @@
 <http://w3id.org/dcri-ont/special/isSizeQualitativeValueOf> <http://www.w3.org/2000/01/rdf-schema#label> "είναι ποιοτική τιμή μεγέθους"@el .
 <http://w3id.org/dcri-ont/special/isSizeQualitativeValueOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "is size qualitative value of"@en .
 <http://w3id.org/dcri-ont/special/isSizeQualitativeValueOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "είναι ποιοτική τιμή μεγέθους"@el .
-# 
-# http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf
-<http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/dcri-ont/isQualitativeValueOf> .
-<http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> .
-<http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf> <http://www.w3.org/2000/01/rdf-schema#label> "is solubility in solvent qualitative value of"@en .
-<http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf> <http://www.w3.org/2000/01/rdf-schema#label> "είναι ποιοτική τιμή διαλυτότητας σε διαλύτη"@el .
-<http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "is solubility in solvent qualitative value of"@en .
-<http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "είναι ποιοτική τιμή διαλυτότητας σε διαλύτη"@el .
 # 
 # http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by
 <http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -423,6 +400,38 @@ _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.cidoc-c
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <http://w3id.org/dcri-ont/special/hasHeightQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "has height quantitative value"@en .
 <http://w3id.org/dcri-ont/special/hasHeightQuantitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has height quantitative value"@en .
+# 
+# http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue
+<http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue> .
+<http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "has maximum relative humidity quantitative value"@en .
+<http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "έχει μέγιστη ποσοτική τιμή σχετικής υγρασίας"@el .
+<http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has maximum relative humidity quantitative value"@en .
+<http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "έχει μέγιστη ποσοτική τιμή σχετικής υγρασίας"@el .
+# 
+# http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue
+<http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/dcri-ont/special/hasTemperatureQuantitativeValue> .
+<http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "has maximum temperature quantitative value"@en .
+<http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "έχει μέγιστη ποσοτική τιμή θερμοκρασίας"@el .
+<http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has maximum temperature quantitative value"@en .
+<http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "έχει μέγιστη ποσοτική τιμή θερμοκρασίας"@el .
+# 
+# http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue
+<http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue> .
+<http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "has minimum relative humidity quantitative value"@en .
+<http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "έχει ελάχιστη ποσοτική τιμή σχετικής υγρασίας"@el .
+<http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has minimum relative humidity quantitative value"@en .
+<http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "έχει ελάχιστη ποσοτική τιμή σχετικής υγρασίας"@el .
+# 
+# http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue
+<http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/dcri-ont/special/hasTemperatureQuantitativeValue> .
+<http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "has minimun temperature quantitative value"@en .
+<http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "έχει ελάχιστη ποσοτική τιμή θερμοκρασίας"@el .
+<http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has minimun temperature quantitative value"@en .
+<http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "έχει ελάχιστη ποσοτική τιμή θερμοκρασίας"@el .
 # 
 # http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue
 <http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -502,6 +511,12 @@ _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # http://w3id.org/dcri-ont/ActorType
 <http://w3id.org/dcri-ont/ActorType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
+# http://w3id.org/dcri-ont/CommercialAppellation
+<http://w3id.org/dcri-ont/CommercialAppellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/dcri-ont/ConditionStateType
+<http://w3id.org/dcri-ont/ConditionStateType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
 # http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-making
 <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
@@ -546,6 +561,9 @@ _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # 
 # http://w3id.org/dcri-ont/ConservationObjectType
 <http://w3id.org/dcri-ont/ConservationObjectType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://w3id.org/dcri-ont/DocumentType
+<http://w3id.org/dcri-ont/DocumentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://w3id.org/dcri-ont/EquipmentType
 <http://w3id.org/dcri-ont/EquipmentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -767,60 +785,40 @@ _:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://w3id.org/dcri-ont/special/OpticalStabilityQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Optical Stability Qualitative Value"@en .
 <http://w3id.org/dcri-ont/special/OpticalStabilityQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ποιοτική Τιμή Οπτικής Σταθερότητας"@el .
 # 
-# http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue
-<http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid75 .
+# http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue
+<http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid75 .
 _:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid75 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid78 .
 _:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid76 .
 _:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid77 .
-_:genid77 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00040> .
+_:genid77 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00029> .
 _:genid77 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
 _:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
 _:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/dcri-ont/QualitativeValue> .
-<http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Performance Space Qualitative Value"@en .
-<http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Ποιοτική Τιμή Χώρου Εκτέλεσης"@el .
-<http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Performance Space Qualitative Value"@en .
-<http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ποιοτική Τιμή Χώρου Εκτέλεσης"@el .
-# 
-# http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue
-<http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid79 .
-_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid79 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid82 .
-_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
+_:genid79 <http://www.w3.org/2002/07/owl#oneOf> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
 _:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid81 .
-_:genid81 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00029> .
-_:genid81 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
-_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00032> .
 _:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00031> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00030> .
 _:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid83 .
-_:genid83 <http://www.w3.org/2002/07/owl#oneOf> _:genid87 .
-_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid86 .
-_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
-_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00032> .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00031> .
-_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00030> .
-_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00029> .
-_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00029> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/dcri-ont/QualitativeValue> .
-<http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
-_:genid88 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity> .
-_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/special/isPerformanceSpeedQualitativeValueOf> .
-_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid84 .
+_:genid84 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/special/isPerformanceSpeedQualitativeValueOf> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Performance Speed Qualitative Value"@en .
 <http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Ποιοτική Τιμή Ταχύτητας Εκτέλεσης"@el .
 <http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Performance Speed Qualitative Value"@en .
@@ -828,95 +826,62 @@ _:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue
 <http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid89 .
-_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid89 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid92 .
-_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
-_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid91 .
-_:genid91 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00200> .
+<http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid85 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid87 .
+_:genid87 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00200> .
 <http://w3id.org/dcri-ont/vocabulary/concept_00200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
-_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#oneOf> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00057> .
 _:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
-_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid93 .
-_:genid93 <http://www.w3.org/2002/07/owl#oneOf> _:genid95 .
-_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
-_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00057> .
-_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00056> .
-_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00056> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/dcri-ont/QualitativeValue> .
 <http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Feature Extent Qualitative Value"@en .
 <http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Ποιοτική Τιμή Έκτασης Φυσικού Χαρακτηριστικού"@el .
 <http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Physical Feature Extent Qualitative Value"@en .
 <http://w3id.org/dcri-ont/special/PhysicalFeatureExtentQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ποιοτική Τιμή Έκτασης Φυσικού Χαρακτηριστικού"@el .
 # 
-# http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue
-<http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid96 .
-_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid96 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid99 .
-_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid97 .
-_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid98 .
-_:genid98 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00204> .
-<http://w3id.org/dcri-ont/vocabulary/concept_00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-_:genid98 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
-_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
-_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid100 .
-_:genid100 <http://www.w3.org/2002/07/owl#oneOf> _:genid103 .
-_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
-_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101 .
-_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00060> .
-_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00059> .
-_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00058> .
-_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/dcri-ont/QualitativeValue> .
-<http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Polymerism degree qualitative value"@en .
-<http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Ποιοτική τιμή βαθμού πολυμερισμού"@el .
-<http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Polymerism degree qualitative value"@en .
-<http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ποιοτική τιμή βαθμού πολυμερισμού"@el .
-# 
 # http://w3id.org/dcri-ont/special/PortabilityQualitativeValue
 <http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid104 .
-_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid104 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid107 .
-_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
-_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid106 .
-_:genid106 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00041> .
-_:genid106 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
-_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
-_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid108 .
-_:genid108 <http://www.w3.org/2002/07/owl#oneOf> _:genid110 .
-_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid109 .
-_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00034> .
-_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00033> .
-_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid92 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid94 .
+_:genid94 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00041> .
+_:genid94 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid96 .
+_:genid96 <http://www.w3.org/2002/07/owl#oneOf> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00034> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00033> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/dcri-ont/QualitativeValue> .
-<http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid111 .
-_:genid111 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity> .
-_:genid111 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/special/isPortabilityQualitativeValueOf> .
-_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid99 .
+_:genid99 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/special/isPortabilityQualitativeValueOf> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Portability Qualitative Value"@en .
 <http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Ποιοτική Τιμή Φορητότητας"@el .
 <http://w3id.org/dcri-ont/special/PortabilityQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Portability Qualitative Value"@en .
@@ -924,32 +889,32 @@ _:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # 
 # http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue
 <http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid112 .
-_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid112 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid115 .
-_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid113 .
-_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid114 .
-_:genid114 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00042> .
-_:genid114 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
-_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
-_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid116 .
-_:genid116 <http://www.w3.org/2002/07/owl#oneOf> _:genid118 .
-_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid117 .
-_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00036> .
-_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00035> .
-_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid100 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101 .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid102 .
+_:genid102 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00042> .
+_:genid102 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid104 .
+_:genid104 <http://www.w3.org/2002/07/owl#oneOf> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00036> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00035> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/dcri-ont/QualitativeValue> .
-<http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid119 .
-_:genid119 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity> .
-_:genid119 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/special/isPowerSupplyQualitativeValueOf> .
-_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid107 .
+_:genid107 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity> .
+_:genid107 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/special/isPowerSupplyQualitativeValueOf> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Power Supply Qualitative Value"@en .
 <http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Ποιοτική Τιμή Χρήσης Ενέργειας"@el .
 <http://w3id.org/dcri-ont/special/PowerSupplyQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Power Supply Qualitative Value"@en .
@@ -957,81 +922,54 @@ _:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # 
 # http://w3id.org/dcri-ont/special/SizeQualitativeValue
 <http://w3id.org/dcri-ont/special/SizeQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/dcri-ont/special/SizeQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid120 .
-_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid120 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid123 .
-_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid121 .
-_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid122 .
-_:genid122 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00197> .
+<http://w3id.org/dcri-ont/special/SizeQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid108 .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid108 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid110 .
+_:genid110 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00197> .
 <http://w3id.org/dcri-ont/vocabulary/concept_00197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-_:genid122 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
-_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
-_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://w3id.org/dcri-ont/special/SizeQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid124 .
-_:genid124 <http://www.w3.org/2002/07/owl#oneOf> _:genid129 .
-_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid128 .
-_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid127 .
-_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
-_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid125 .
-_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00062> .
-_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00061> .
-_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00055> .
-_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00054> .
-_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00053> .
-_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid110 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://w3id.org/dcri-ont/special/SizeQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid112 .
+_:genid112 <http://www.w3.org/2002/07/owl#oneOf> _:genid117 .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid113 .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00062> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00061> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00055> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00054> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00053> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://w3id.org/dcri-ont/special/SizeQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/dcri-ont/QualitativeValue> .
 <http://w3id.org/dcri-ont/special/SizeQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Size Qualitative Value"@en .
 <http://w3id.org/dcri-ont/special/SizeQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Ποιοτική Τιμή Μεγέθους"@el .
 <http://w3id.org/dcri-ont/special/SizeQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Size Qualitative Value"@en .
 <http://w3id.org/dcri-ont/special/SizeQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ποιοτική Τιμή Μεγέθους"@el .
 # 
-# http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue
-<http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid130 .
-_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid130 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid133 .
-_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid131 .
-_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid132 .
-_:genid132 <http://www.w3.org/2002/07/owl#hasValue> <http://w3id.org/dcri-ont/vocabulary/concept_00046> .
-_:genid132 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/refersToPropertyType> .
-_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/QualitativeValue> .
-_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid134 .
-_:genid134 <http://www.w3.org/2002/07/owl#oneOf> _:genid136 .
-_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid135 .
-_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00002> .
-_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00001> .
-_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/dcri-ont/QualitativeValue> .
-<http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid137 .
-_:genid137 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity> .
-_:genid137 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf> .
-_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Solubility in Solvent Qualitative Value"@en .
-<http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Ποιοτική Τιμή Διαλυτότητας σε Διαλύτη"@el .
-<http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solubility in Solvent Qualitative Value"@en .
-<http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ποιοτική Τιμή Διαλυτότητας σε Διαλύτη"@el .
-# 
 # http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object
 <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature
 <http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.cidoc-crm.org/cidoc-crm/E31_Document
+<http://www.cidoc-crm.org/cidoc-crm/E31_Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.cidoc-crm.org/cidoc-crm/E35_Title
+<http://www.cidoc-crm.org/cidoc-crm/E35_Title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.cidoc-crm.org/cidoc-crm/E54_Dimension
 <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1059,6 +997,20 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # #
 # #################################################################
 # 
+# 
+# http://w3id.org/dcri-ont/special/ca_klucel-g
+<http://w3id.org/dcri-ont/special/ca_klucel-g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/ca_klucel-g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/CommercialAppellation> .
+<http://w3id.org/dcri-ont/special/ca_klucel-g> <http://w3id.org/dcri-ont/isCommercialAppellationOf> <http://w3id.org/dcri-ont/vocabulary/concept_00254> .
+<http://w3id.org/dcri-ont/special/ca_klucel-g> <http://www.w3.org/2000/01/rdf-schema#label> "Klucel G"@en .
+<http://w3id.org/dcri-ont/special/ca_klucel-g> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klucel G"@en .
+# 
+# http://w3id.org/dcri-ont/special/ca_paraloid-b72
+<http://w3id.org/dcri-ont/special/ca_paraloid-b72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/ca_paraloid-b72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/CommercialAppellation> .
+<http://w3id.org/dcri-ont/special/ca_paraloid-b72> <http://w3id.org/dcri-ont/isCommercialAppellationOf> <http://w3id.org/dcri-ont/vocabulary/concept_00169> .
+<http://w3id.org/dcri-ont/special/ca_paraloid-b72> <http://www.w3.org/2000/01/rdf-schema#label> "Paraloid B72"@en .
+<http://w3id.org/dcri-ont/special/ca_paraloid-b72> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paraloid B72"@en .
 # 
 # http://w3id.org/dcri-ont/special/d_concentration_material_001
 <http://w3id.org/dcri-ont/special/d_concentration_material_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1195,8 +1147,10 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1204,7 +1158,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/involvesChoosing> <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_009> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://w3id.org/dcri-ont/isSolutionOf> <http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001> <http://www.w3.org/2000/01/rdf-schema#label> "option of mechanical cleaning of superficial deposits with air blow gun"@en .
@@ -1216,7 +1169,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
@@ -1230,7 +1182,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/involvesChoosing> <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_010> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://w3id.org/dcri-ont/isSolutionOf> <http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002> <http://www.w3.org/2000/01/rdf-schema#label> "option of mechanical cleaning of superficial deposits with air blow gun and dusting brush"@en .
@@ -1242,9 +1193,10 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1252,7 +1204,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/involvesChoosing> <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_003> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://w3id.org/dcri-ont/isSolutionOf> <http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003> <http://www.w3.org/2000/01/rdf-schema#label> "option of mechanical cleaning of superficial deposits with battery air blower"@en .
@@ -1264,11 +1215,10 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1277,7 +1227,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/involvesChoosing> <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_004> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://w3id.org/dcri-ont/isSolutionOf> <http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004> <http://www.w3.org/2000/01/rdf-schema#label> "option of mechanical cleaning of superficial deposits with battery air blower and dusting brush"@en .
@@ -1289,8 +1238,10 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1298,7 +1249,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/involvesChoosing> <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_005> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://w3id.org/dcri-ont/isSolutionOf> <http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005> <http://www.w3.org/2000/01/rdf-schema#label> "option of mechanical cleaning of superficial deposits with battery vacuum cleaner"@en .
@@ -1310,7 +1260,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
@@ -1324,7 +1273,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/involvesChoosing> <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_006> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://w3id.org/dcri-ont/isSolutionOf> <http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006> <http://www.w3.org/2000/01/rdf-schema#label> "option of mechanical cleaning of superficial deposits with battery vacuum cleaner and dusting brush"@en .
@@ -1364,6 +1312,7 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_009
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_009> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_001> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_009> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_009> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_003> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_009> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
@@ -1387,7 +1336,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_010> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032> .
@@ -1660,7 +1608,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_021> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020> .
@@ -1693,7 +1640,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_022> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_022> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_022> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_022> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_016> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_022> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_022> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_022> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_025> .
@@ -1848,6 +1794,7 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_032> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_030> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_032> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_031> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_032> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_033> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_032> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_043> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_032> <http://w3id.org/dcri-ont/involvesChoosing> <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_032> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_032> <http://w3id.org/dcri-ont/isSolutionOf> <http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_032> <http://www.w3.org/2000/01/rdf-schema#label> "option of mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) and dusting brush around flaking areas"@en .
@@ -1901,9 +1848,29 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_034> <http://w3id.org/dcri-ont/involvesChoosing> <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_034> <http://w3id.org/dcri-ont/isSolutionOf> <http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit> .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_034> <http://www.w3.org/2000/01/rdf-schema#label> "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung friability areas"@en .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_034> <http://www.w3.org/2000/01/rdf-schema#label> "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_034> <http://www.w3.org/2000/01/rdf-schema#label> "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας"@el .
 <http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_034> <http://www.w3.org/2004/02/skos/core#prefLabel> "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung friability areas"@en .
-<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_034> <http://www.w3.org/2004/02/skos/core#prefLabel> "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_034> <http://www.w3.org/2004/02/skos/core#prefLabel> "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας"@el .
+# 
+# http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_021> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_030> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_031> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasRequirement> <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_033> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/involvesChoosing> <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/isSolutionOf> <http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit> .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://www.w3.org/2000/01/rdf-schema#label> "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung flaking areas"@en .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://www.w3.org/2000/01/rdf-schema#label> "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://www.w3.org/2004/02/skos/core#prefLabel> "option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung flaking areas"@en .
+<http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035> <http://www.w3.org/2004/02/skos/core#prefLabel> "επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el .
 # 
 # http://w3id.org/dcri-ont/special/dmo_consolidation_of_flaking_painting_001
 <http://w3id.org/dcri-ont/special/dmo_consolidation_of_flaking_painting_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2147,6 +2114,17 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_016> <http://www.w3.org/2000/01/rdf-schema#label> "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος"@el .
 <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_016> <http://www.w3.org/2004/02/skos/core#prefLabel> "requirement for conservation object about silver mirroring absence"@en .
 <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_016> <http://www.w3.org/2004/02/skos/core#prefLabel> "απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος"@el .
+# 
+# http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017
+<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject> .
+<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/requiresAbsenceOf> <http://w3id.org/dcri-ont/vocabulary/concept_00189> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://w3id.org/dcri-ont/isAboutCertainType> <http://w3id.org/dcri-ont/vocabulary/concept_00218> .
+<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/2000/01/rdf-schema#label> "requirement for conservation object about emulsion absence"@en .
+<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/2000/01/rdf-schema#label> "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"@el .
+<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/2004/02/skos/core#prefLabel> "requirement for conservation object about emulsion absence"@en .
+<http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017> <http://www.w3.org/2004/02/skos/core#prefLabel> "απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος"@el .
 # 
 # http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018
 <http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2553,6 +2531,75 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/dmr_consolidation_of_flaking_painting_007> <http://www.w3.org/2000/01/rdf-schema#label> "απαίτηση για το πλάνο σχετικά με την απουσία ολικής εφαρμογής"@el .
 <http://w3id.org/dcri-ont/special/dmr_consolidation_of_flaking_painting_007> <http://www.w3.org/2004/02/skos/core#prefLabel> "requirement for plan about overall application absence"@en .
 <http://w3id.org/dcri-ont/special/dmr_consolidation_of_flaking_painting_007> <http://www.w3.org/2004/02/skos/core#prefLabel> "απαίτηση για το πλάνο σχετικά με την απουσία ολικής εφαρμογής"@el .
+# 
+# http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001> <http://w3id.org/dcri-ont/hasDocumentType> <http://w3id.org/dcri-ont/vocabulary/concept_00275> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title> <http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "https://www.conservation-wiki.com/wiki/BPG_Consolidation,_Fixing,_and_Facing" .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001> <http://www.cidoc-crm.org/cidoc-crm/P70_documents> <http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_001> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001> <http://www.cidoc-crm.org/cidoc-crm/P70_documents> <http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_003> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001> <http://www.cidoc-crm.org/cidoc-crm/P70_documents> <http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_006> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001> <http://www.w3.org/2000/01/rdf-schema#label> "AIC wiki, BPG Consolidation-Fixing-Facing"@en .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001> <http://www.w3.org/2004/02/skos/core#prefLabel> "AIC wiki, BPG Consolidation-Fixing-Facing"@en .
+# 
+# http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002> <http://w3id.org/dcri-ont/hasDocumentType> <http://w3id.org/dcri-ont/vocabulary/concept_00274> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title> <http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.dcr.fct.unl.pt/sites/www.dcr.fct.unl.pt/files/borges_2018.pdf" .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002> <http://www.cidoc-crm.org/cidoc-crm/P70_documents> <http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_001> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002> <http://www.w3.org/2000/01/rdf-schema#label> "Elsevier, Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"@en .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elsevier, Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"@en .
+# 
+# http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003> <http://w3id.org/dcri-ont/hasDocumentType> <http://w3id.org/dcri-ont/vocabulary/concept_00274> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title> <http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "https://www.tandfonline.com/doi/abs/10.1080/03094227.1998.9638607" .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003> <http://www.cidoc-crm.org/cidoc-crm/P70_documents> <http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_003> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003> <http://www.cidoc-crm.org/cidoc-crm/P70_documents> <http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_005> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003> <http://www.cidoc-crm.org/cidoc-crm/P70_documents> <http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_006> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003> <http://www.w3.org/2000/01/rdf-schema#label> "The paper conservator, The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"@en .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003> <http://www.w3.org/2004/02/skos/core#prefLabel> "The paper conservator, The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"@en .
+# 
+# http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004> <http://w3id.org/dcri-ont/hasDocumentType> <http://w3id.org/dcri-ont/vocabulary/concept_00275> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title> <http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v14/bp14-03.html" .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004> <http://www.cidoc-crm.org/cidoc-crm/P70_documents> <http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_002> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004> <http://www.cidoc-crm.org/cidoc-crm/P70_documents> <http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_004> .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004> <http://www.w3.org/2000/01/rdf-schema#label> "AIC, BPG Annual, The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"@en .
+<http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004> <http://www.w3.org/2004/02/skos/core#prefLabel> "AIC, BPG Annual, The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"@en .
+# 
+# http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001> <http://www.w3.org/2000/01/rdf-schema#label> "BPG Consolidation, Fixing, and Facing"@en .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001> <http://www.w3.org/2004/02/skos/core#prefLabel> "BPG Consolidation, Fixing, and Facing"@en .
+# 
+# http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002> <http://www.w3.org/2000/01/rdf-schema#label> "Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"@en .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity"@en .
+# 
+# http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003> <http://www.w3.org/2000/01/rdf-schema#label> "The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"@en .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003> <http://www.w3.org/2004/02/skos/core#prefLabel> "The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner"@en .
+# 
+# http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004> <http://www.w3.org/2000/01/rdf-schema#label> "The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"@en .
+<http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004> <http://www.w3.org/2004/02/skos/core#prefLabel> "The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper"@en .
 # 
 # http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_001
 <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2966,9 +3013,23 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034> <http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue> <http://w3id.org/dcri-ont/special/qv_00032> .
 <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034> <http://w3id.org/dcri-ont/hasPlanType> <http://w3id.org/dcri-ont/vocabulary/concept_00021> .
 <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034> <http://www.w3.org/2000/01/rdf-schema#label> "mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas"@en .
-<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034> <http://www.w3.org/2000/01/rdf-schema#label> "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034> <http://www.w3.org/2000/01/rdf-schema#label> "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας"@el .
 <http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034> <http://www.w3.org/2004/02/skos/core#prefLabel> "mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas"@en .
-<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034> <http://www.w3.org/2004/02/skos/core#prefLabel> "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034> <http://www.w3.org/2004/02/skos/core#prefLabel> "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευρθρυπτότητας"@el .
+# 
+# http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/RemedialConservationAndRestorationInterventionPlan> .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/specifiesConservationAndRestorationInterventionSupply> <http://w3id.org/dcri-ont/special/is_equipment_001> .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/specifiesConservationAndRestorationInterventionSupply> <http://w3id.org/dcri-ont/special/is_equipment_006> .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/special/hasApplicationDistanceQualitativeValue> <http://w3id.org/dcri-ont/special/qv_00011> .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/special/hasApplicationExtentQualitativeValue> <http://w3id.org/dcri-ont/special/qv_00012> .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue> <http://w3id.org/dcri-ont/special/qv_00032> .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://w3id.org/dcri-ont/hasPlanType> <http://w3id.org/dcri-ont/vocabulary/concept_00021> .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://www.w3.org/2000/01/rdf-schema#label> "mechanical cleaning of superficial deposits with dust bulb and dusting brush around flaking areas"@en .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://www.w3.org/2000/01/rdf-schema#label> "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://www.w3.org/2004/02/skos/core#prefLabel> "mechanical cleaning of superficial deposits with dust bulb and dusting brush around flaking areas"@en .
+<http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035> <http://www.w3.org/2004/02/skos/core#prefLabel> "μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων"@el .
 # 
 # http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_001
 <http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3253,7 +3314,8 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # http://w3id.org/dcri-ont/special/is_material_001
 <http://w3id.org/dcri-ont/special/is_material_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/is_material_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply> .
-<http://w3id.org/dcri-ont/special/is_material_001> <http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType> <http://w3id.org/dcri-ont/vocabulary/concept_00158> .
+<http://w3id.org/dcri-ont/special/is_material_001> <http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType> <http://w3id.org/dcri-ont/vocabulary/concept_00278> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00278> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/is_material_001> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> <http://w3id.org/dcri-ont/special/d_concentration_material_001> .
 <http://w3id.org/dcri-ont/special/is_material_001> <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> <http://w3id.org/dcri-ont/vocabulary/concept_00062> .
 <http://w3id.org/dcri-ont/special/is_material_001> <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> <http://w3id.org/dcri-ont/vocabulary/concept_00064> .
@@ -3265,7 +3327,7 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # http://w3id.org/dcri-ont/special/is_material_002
 <http://w3id.org/dcri-ont/special/is_material_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/is_material_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply> .
-<http://w3id.org/dcri-ont/special/is_material_002> <http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType> <http://w3id.org/dcri-ont/vocabulary/concept_00158> .
+<http://w3id.org/dcri-ont/special/is_material_002> <http://w3id.org/dcri-ont/hasConservationAndRestorationInterventionSupplyType> <http://w3id.org/dcri-ont/vocabulary/concept_00278> .
 <http://w3id.org/dcri-ont/special/is_material_002> <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> <http://w3id.org/dcri-ont/special/d_concentration_material_002> .
 <http://w3id.org/dcri-ont/special/is_material_002> <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> <http://w3id.org/dcri-ont/vocabulary/concept_00062> .
 <http://w3id.org/dcri-ont/special/is_material_002> <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> <http://w3id.org/dcri-ont/vocabulary/concept_00063> .
@@ -3363,22 +3425,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/is_material_008> <http://www.w3.org/2000/01/rdf-schema#label> "klucel G σε ισοπροπανόλη 0.1"@el .
 <http://w3id.org/dcri-ont/special/is_material_008> <http://www.w3.org/2004/02/skos/core#prefLabel> "klucel G in propan-2-ol at 0.1"@en .
 <http://w3id.org/dcri-ont/special/is_material_008> <http://www.w3.org/2004/02/skos/core#prefLabel> "klucel G σε ισοπροπανόλη 0.1"@el .
-# 
-# http://w3id.org/dcri-ont/special/qv_00001
-<http://w3id.org/dcri-ont/special/qv_00001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/dcri-ont/special/qv_00001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> .
-<http://w3id.org/dcri-ont/special/qv_00001> <http://www.w3.org/2000/01/rdf-schema#label> "aceton soluble"@en .
-<http://w3id.org/dcri-ont/special/qv_00001> <http://www.w3.org/2000/01/rdf-schema#label> "διαλυτό σε ακετόνη"@el .
-<http://w3id.org/dcri-ont/special/qv_00001> <http://www.w3.org/2004/02/skos/core#prefLabel> "aceton soluble"@en .
-<http://w3id.org/dcri-ont/special/qv_00001> <http://www.w3.org/2004/02/skos/core#prefLabel> "διαλυτό σε ακετόνη"@el .
-# 
-# http://w3id.org/dcri-ont/special/qv_00002
-<http://w3id.org/dcri-ont/special/qv_00002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/dcri-ont/special/qv_00002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue> .
-<http://w3id.org/dcri-ont/special/qv_00002> <http://www.w3.org/2000/01/rdf-schema#label> "water soluble"@en .
-<http://w3id.org/dcri-ont/special/qv_00002> <http://www.w3.org/2000/01/rdf-schema#label> "διαλυτό σε νερό"@el .
-<http://w3id.org/dcri-ont/special/qv_00002> <http://www.w3.org/2004/02/skos/core#prefLabel> "water soluble"@en .
-<http://w3id.org/dcri-ont/special/qv_00002> <http://www.w3.org/2004/02/skos/core#prefLabel> "διαλυτό σε νερό"@el .
 # 
 # http://w3id.org/dcri-ont/special/qv_00003
 <http://w3id.org/dcri-ont/special/qv_00003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3635,30 +3681,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/special/qv_00057> <http://www.w3.org/2004/02/skos/core#prefLabel> "local surface extent"@en .
 <http://w3id.org/dcri-ont/special/qv_00057> <http://www.w3.org/2004/02/skos/core#prefLabel> "τοπική έκταση επιφάνειας"@el .
 # 
-# http://w3id.org/dcri-ont/special/qv_00058
-<http://w3id.org/dcri-ont/special/qv_00058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/dcri-ont/special/qv_00058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> .
-<http://w3id.org/dcri-ont/special/qv_00058> <http://www.w3.org/2000/01/rdf-schema#label> "polymerism high degree"@en .
-<http://w3id.org/dcri-ont/special/qv_00058> <http://www.w3.org/2000/01/rdf-schema#label> "υψηλός βαθμός πολυμερισμού"@el .
-<http://w3id.org/dcri-ont/special/qv_00058> <http://www.w3.org/2004/02/skos/core#prefLabel> "polymerism high degree"@en .
-<http://w3id.org/dcri-ont/special/qv_00058> <http://www.w3.org/2004/02/skos/core#prefLabel> "υψηλός βαθμός πολυμερισμού"@el .
-# 
-# http://w3id.org/dcri-ont/special/qv_00059
-<http://w3id.org/dcri-ont/special/qv_00059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/dcri-ont/special/qv_00059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> .
-<http://w3id.org/dcri-ont/special/qv_00059> <http://www.w3.org/2000/01/rdf-schema#label> "polymerism medium degree"@en .
-<http://w3id.org/dcri-ont/special/qv_00059> <http://www.w3.org/2000/01/rdf-schema#label> "μέτριος βαθμός πολυμερισμού"@el .
-<http://w3id.org/dcri-ont/special/qv_00059> <http://www.w3.org/2004/02/skos/core#prefLabel> "polymerism medium degree"@en .
-<http://w3id.org/dcri-ont/special/qv_00059> <http://www.w3.org/2004/02/skos/core#prefLabel> "μέτριος βαθμός πολυμερισμού"@el .
-# 
-# http://w3id.org/dcri-ont/special/qv_00060
-<http://w3id.org/dcri-ont/special/qv_00060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/dcri-ont/special/qv_00060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue> .
-<http://w3id.org/dcri-ont/special/qv_00060> <http://www.w3.org/2000/01/rdf-schema#label> "polymerism low degree"@en .
-<http://w3id.org/dcri-ont/special/qv_00060> <http://www.w3.org/2000/01/rdf-schema#label> "χαμηλός βαθμός πολυμερισμού"@el .
-<http://w3id.org/dcri-ont/special/qv_00060> <http://www.w3.org/2004/02/skos/core#prefLabel> "polymerism low degree"@en .
-<http://w3id.org/dcri-ont/special/qv_00060> <http://www.w3.org/2004/02/skos/core#prefLabel> "χαμηλός βαθμός πολυμερισμού"@el .
-# 
 # http://w3id.org/dcri-ont/special/qv_00061
 <http://w3id.org/dcri-ont/special/qv_00061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/special/qv_00061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/special/SizeQualitativeValue> .
@@ -3750,10 +3772,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # http://w3id.org/dcri-ont/vocabulary/concept_00039
 <http://w3id.org/dcri-ont/vocabulary/concept_00039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/vocabulary/concept_00039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type> .
-# 
-# http://w3id.org/dcri-ont/vocabulary/concept_00040
-<http://w3id.org/dcri-ont/vocabulary/concept_00040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/dcri-ont/vocabulary/concept_00040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type> .
 # 
 # http://w3id.org/dcri-ont/vocabulary/concept_00041
 <http://w3id.org/dcri-ont/vocabulary/concept_00041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -4079,7 +4097,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/vocabulary/concept_00188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E57_Material> .
 # 
 # http://w3id.org/dcri-ont/vocabulary/concept_00189
-<http://w3id.org/dcri-ont/vocabulary/concept_00189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/vocabulary/concept_00189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E57_Material> .
 # 
 # http://w3id.org/dcri-ont/vocabulary/concept_00190
@@ -4129,9 +4146,6 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # http://w3id.org/dcri-ont/vocabulary/concept_00203
 <http://w3id.org/dcri-ont/vocabulary/concept_00203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/vocabulary/concept_00203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/PhysicalFeatureType> .
-# 
-# http://w3id.org/dcri-ont/vocabulary/concept_00204
-<http://w3id.org/dcri-ont/vocabulary/concept_00204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type> .
 # 
 # http://w3id.org/dcri-ont/vocabulary/concept_00205
 <http://w3id.org/dcri-ont/vocabulary/concept_00205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E57_Material> .
@@ -4355,6 +4369,420 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://w3id.org/dcri-ont/vocabulary/concept_00263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://w3id.org/dcri-ont/vocabulary/concept_00263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ActorType> .
 # 
+# http://w3id.org/dcri-ont/vocabulary/concept_00268
+<http://w3id.org/dcri-ont/vocabulary/concept_00268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/PhysicalFeatureType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00269
+<http://w3id.org/dcri-ont/vocabulary/concept_00269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/PhysicalFeatureType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00270
+<http://w3id.org/dcri-ont/vocabulary/concept_00270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/PhysicalFeatureType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00271
+<http://w3id.org/dcri-ont/vocabulary/concept_00271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/PhysicalFeatureType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00272
+<http://w3id.org/dcri-ont/vocabulary/concept_00272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ActorType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00273
+<http://w3id.org/dcri-ont/vocabulary/concept_00273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/DocumentType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00274
+<http://w3id.org/dcri-ont/vocabulary/concept_00274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/DocumentType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00275
+<http://w3id.org/dcri-ont/vocabulary/concept_00275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/DocumentType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00276
+<http://w3id.org/dcri-ont/vocabulary/concept_00276> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00276> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/DocumentType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00277
+<http://w3id.org/dcri-ont/vocabulary/concept_00277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/DocumentType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00278
+<http://w3id.org/dcri-ont/vocabulary/concept_00278> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E57_Material> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00279
+<http://w3id.org/dcri-ont/vocabulary/concept_00279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConditionStateType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00280
+<http://w3id.org/dcri-ont/vocabulary/concept_00280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConditionStateType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00281
+<http://w3id.org/dcri-ont/vocabulary/concept_00281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConditionStateType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00283
+<http://w3id.org/dcri-ont/vocabulary/concept_00283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConditionStateType> .
+# 
+# http://w3id.org/dcri-ont/vocabulary/concept_00284
+<http://w3id.org/dcri-ont/vocabulary/concept_00284> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/dcri-ont/vocabulary/concept_00284> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/dcri-ont/ConditionStateType> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid118 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid120 .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid119 .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00004> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00003> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid121 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid123 .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00006> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00005> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid124 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00007> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00005> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid127 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid129 .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid128 .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00008> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00005> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid130 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid131 .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00009> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00005> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid133 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid135 .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid134 .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00007> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00006> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid136 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid138 .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid137 .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00008> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00006> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid139 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid141 .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140 .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00009> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00006> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid142 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid144 .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid143 .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00008> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00007> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid145 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid147 .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid146 .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00009> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00007> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid148 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid150 .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid149 .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00009> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00008> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid151 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid153 .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00011> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00010> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid154 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid156 .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid155 .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00013> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00012> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid157 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid159 .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid158 .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00026> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00025> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid160 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid162 .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid161 .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00052> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00025> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid163 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid165 .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid164 .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00052> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00026> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid166 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid168 .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid167 .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00030> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00029> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid169 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid171 .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid170 .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00031> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00029> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid172 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid174 .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid173 .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00032> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00029> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid175 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid177 .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid176 .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00031> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00030> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid178 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid180 .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid179 .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00032> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00030> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid181 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid183 .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid182 .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00032> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00031> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid184 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid186 .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid185 .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00034> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00033> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid187 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid189 .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid188 .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00036> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00035> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid190 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid192 .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid191 .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00050> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00049> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid193 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid195 .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid194 .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00051> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00049> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid196 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid198 .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid197 .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00051> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00050> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid199 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid201 .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid200 .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00054> .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00053> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid202 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid204 .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid203 .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00055> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00053> .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid205 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid207 .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid206 .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00061> .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00053> .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid208 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid210 .
+_:genid210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid209 .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00062> .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00053> .
+_:genid210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid211 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid213 .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid212 .
+_:genid212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00055> .
+_:genid212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00054> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid214 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid216 .
+_:genid216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid215 .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00061> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00054> .
+_:genid216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid217 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid219 .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid218 .
+_:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00062> .
+_:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00054> .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid220 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid222 .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid221 .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00061> .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00055> .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid223 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid225 .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid224 .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00062> .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00055> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid226 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid228 .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid227 .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00057> .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00056> .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid229 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid231 .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid230 .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00062> .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/dcri-ont/special/qv_00061> .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
 # 
 # 
 # #################################################################
@@ -4369,83 +4797,83 @@ _:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <http://www.semanticweb.org/dcri-ont/special/e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
 <http://www.semanticweb.org/dcri-ont/special/obj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
 <http://www.semanticweb.org/dcri-ont/special/a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
-_:genid138 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-_:genid138 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
-_:genid138 <http://www.w3.org/2000/01/rdf-schema#label> "Rule 2.1" .
-_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
-_:genid138 <http://www.w3.org/2003/11/swrl#body> _:genid157 .
-_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid155 .
-_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid153 .
-_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid151 .
-_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid149 .
-_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid147 .
-_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid145 .
-_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid143 .
-_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141 .
-_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid139 .
-_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140 .
-_:genid140 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/e> .
-_:genid140 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid142 .
-_:genid142 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/a> .
-_:genid142 <http://www.w3.org/2003/11/swrl#classPredicate> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-making> .
-_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid144 .
-_:genid144 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/e> .
-_:genid144 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/obj> .
-_:genid144 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> .
-_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid146 .
-_:genid146 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/obj> .
-_:genid146 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/a> .
-_:genid146 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by> .
-_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid148 .
-_:genid148 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/b> .
-_:genid148 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/a> .
-_:genid148 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://w3id.org/dcri-ont/considers> .
-_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid150 .
-_:genid150 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/b> .
-_:genid150 <http://www.w3.org/2003/11/swrl#classPredicate> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
-_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid152 .
-_:genid152 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/c> .
-_:genid152 <http://www.w3.org/2003/11/swrl#classPredicate> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject> .
-_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid154 .
-_:genid154 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/obj> .
-_:genid154 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
-_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid156 .
-_:genid156 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/e> .
-_:genid156 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/c> .
-_:genid156 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://w3id.org/dcri-ont/isAboutCertainType> .
+_:genid232 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid232 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid232 <http://www.w3.org/2000/01/rdf-schema#label> "Rule 2.1" .
+_:genid232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid232 <http://www.w3.org/2003/11/swrl#body> _:genid251 .
+_:genid251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid249 .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid247 .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid245 .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid243 .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid241 .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid239 .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid237 .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid235 .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid233 .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid234 .
+_:genid234 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/e> .
+_:genid234 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+_:genid234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid236 .
+_:genid236 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/a> .
+_:genid236 <http://www.w3.org/2003/11/swrl#classPredicate> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-making> .
+_:genid236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid238 .
+_:genid238 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/e> .
+_:genid238 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/obj> .
+_:genid238 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid240 .
+_:genid240 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/obj> .
+_:genid240 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/a> .
+_:genid240 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by> .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid242 .
+_:genid242 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/b> .
+_:genid242 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/a> .
+_:genid242 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://w3id.org/dcri-ont/considers> .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid244 .
+_:genid244 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/b> .
+_:genid244 <http://www.w3.org/2003/11/swrl#classPredicate> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption> .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid246 .
+_:genid246 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/c> .
+_:genid246 <http://www.w3.org/2003/11/swrl#classPredicate> <http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject> .
+_:genid246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid248 .
+_:genid248 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/obj> .
+_:genid248 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+_:genid248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid250 .
+_:genid250 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/e> .
+_:genid250 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/c> .
+_:genid250 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://w3id.org/dcri-ont/isAboutCertainType> .
 <http://w3id.org/dcri-ont/isAboutCertainType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid158 .
-_:genid158 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/c> .
-_:genid158 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/b> .
-_:genid158 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://w3id.org/dcri-ont/hasRequirement> .
-_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid138 <http://www.w3.org/2003/11/swrl#head> _:genid159 .
-_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160 .
-_:genid160 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/c> .
-_:genid160 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/a> .
-_:genid160 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://w3id.org/dcri-ont/stipulates> .
-_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid250 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid252 .
+_:genid252 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/c> .
+_:genid252 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/b> .
+_:genid252 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://w3id.org/dcri-ont/hasRequirement> .
+_:genid252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid232 <http://www.w3.org/2003/11/swrl#head> _:genid253 .
+_:genid253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid254 .
+_:genid254 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/dcri-ont/special/c> .
+_:genid254 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/dcri-ont/special/a> .
+_:genid254 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://w3id.org/dcri-ont/stipulates> .
+_:genid254 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
